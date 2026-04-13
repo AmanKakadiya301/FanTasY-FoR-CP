@@ -12,12 +12,21 @@ const LEVELS = [
   { level: 5, title: 'Master', minXP: 1500, icon: '👑' },
 ];
 
-const RANK_TIERS = [
-  { id: 'bronze', label: 'Bronze', minXP: 0, icon: '🥉', color: '#CD7F32' },
-  { id: 'silver', label: 'Silver', minXP: 100, icon: '🥈', color: '#C0C0C0' },
-  { id: 'gold', label: 'Gold', minXP: 300, icon: '🥇', color: '#FFD700' },
-  { id: 'platinum', label: 'Platinum', minXP: 700, icon: '💎', color: '#E5E4E2' },
-];
+export function getTier(xp) {
+  if (xp >= 1500) return "Diamond";
+  if (xp >= 800) return "Platinum";
+  if (xp >= 400) return "Gold";
+  if (xp >= 150) return "Silver";
+  return "Bronze";
+}
+
+export function getNextTierXp(xp) {
+  if (xp < 150) return 150;
+  if (xp < 400) return 400;
+  if (xp < 800) return 800;
+  if (xp < 1500) return 1500;
+  return 2000;
+}
 
 export function getXPForDifficulty(difficulty) {
   return XP_VALUES[difficulty] || XP_VALUES.medium;
@@ -29,7 +38,6 @@ export function calculateTotalXP(solvedProblems, allLevels, streak = 0) {
   
   if (!allLevels) return totalXP;
 
-  // 1. Solve XP
   for (const level of allLevels) {
     for (const week of level.weeks) {
       for (const topic of week.topics) {
@@ -44,30 +52,15 @@ export function calculateTotalXP(solvedProblems, allLevels, streak = 0) {
     }
   }
 
-  // 2. Streak Bonus: +5 XP per day streak
+  // Streak Bonus: +5 XP per day streak
   totalXP += (streak * 5);
 
-  // 3. Milestone Bonuses
+  // Milestone Bonuses
   if (solvedCount >= 50) totalXP += 200;
   else if (solvedCount >= 25) totalXP += 100;
   else if (solvedCount >= 10) totalXP += 50;
 
   return totalXP;
-}
-
-export function getRankTier(xp) {
-  let currentTier = RANK_TIERS[0];
-  for (const tier of RANK_TIERS) {
-    if (xp >= tier.minXP) {
-      currentTier = tier;
-    }
-  }
-  
-  const currentIndex = RANK_TIERS.indexOf(currentTier);
-  const nextTier = RANK_TIERS[currentIndex + 1] || null;
-  const progress = nextTier ? Math.min((xp - currentTier.minXP) / (nextTier.minXP - currentTier.minXP) * 100, 100) : 100;
-
-  return { ...currentTier, nextTier, progress };
 }
 
 export function getLevelInfo(xp) {
@@ -95,4 +88,4 @@ export function getLevelInfo(xp) {
   };
 }
 
-export { LEVELS, XP_VALUES, RANK_TIERS };
+export { LEVELS, XP_VALUES };

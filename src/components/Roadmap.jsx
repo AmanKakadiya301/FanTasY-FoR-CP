@@ -1,7 +1,11 @@
+import { useState, useMemo } from 'react';
 import ProblemTable from './ProblemTable.jsx';
 import ConfettiEffect from './ConfettiEffect.jsx';
 import FilterBar from './FilterBar.jsx';
 import ProgressEngine from './ProgressEngine.jsx';
+import Achievements from './Achievements.jsx';
+import WeeklyReport from './WeeklyReport.jsx';
+import { generateWeeklyReport } from '../utils/analytics.js';
 
 function TopicAccordion({
   topic,
@@ -147,6 +151,25 @@ export default function Roadmap({
   activeTopic,
   setActiveTopic
 }) {
+  const weeklyData = useMemo(() => generateWeeklyReport(solved, levels), [solved, levels]);
+  
+  const difficultyStats = useMemo(() => {
+    const stats = { easy: 0, medium: 0, hard: 0 };
+    levels.forEach(l => {
+      l.weeks.forEach(w => {
+        w.topics.forEach(t => {
+          if (!t.problems) return;
+          t.problems.forEach(p => {
+            if (solved[p.id]) {
+              const d = (p.difficulty || 'medium').toLowerCase();
+              if (stats[d] !== undefined) stats[d]++;
+            }
+          });
+        });
+      });
+    });
+    return stats;
+  }, [solved, levels]);
 
   return (
     <div className="w-full">
@@ -158,6 +181,23 @@ export default function Roadmap({
         dailyGoal={dailyGoal}
         levelInfo={levelInfo}
       />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        <WeeklyReport 
+          weeklySolved={weeklyData.current.total}
+          prevWeeklySolved={weeklyData.prev.total}
+          easySolved={weeklyData.current.easy}
+          mediumSolved={weeklyData.current.medium}
+          hardSolved={weeklyData.current.hard}
+          streak={streak.count || 0}
+        />
+        <Achievements 
+          totalSolved={solvedCount}
+          streak={streak.count || 0}
+          mediumSolved={difficultyStats.medium}
+          hardSolved={difficultyStats.hard}
+        />
+      </div>
 
       <section className="w-full pb-20 space-y-8">
         {levels && levels.map(level => (

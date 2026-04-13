@@ -1,57 +1,63 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export default function InsightCard({ type, message }) {
-  const configs = {
-    focus: {
-      icon: "🎯",
-      title: "Tactical Focus",
-      color: "text-neon-cyan",
-      bg: "bg-neon-cyan/5",
-      border: "border-neon-cyan/20",
-      glow: "shadow-[0_0_15px_rgba(34,211,238,0.1)]"
+export default function InsightCard({
+  title = "Smart Insight",
+  message = "You're doing great. Keep solving.",
+  type = "info", // info | warning | success | focus
+}) {
+  const config = {
+    info: {
+      icon: "🧠",
+      color: "from-cyan-400 to-blue-500",
+      glow: "shadow-cyan-500/20",
     },
     warning: {
       icon: "⚠️",
-      title: "Action Required",
-      color: "text-neon-pink",
-      bg: "bg-neon-pink/5",
-      border: "border-neon-pink/20",
-      glow: "shadow-[0_0_15px_rgba(236,72,153,0.1)]"
+      color: "from-yellow-400 to-orange-500",
+      glow: "shadow-yellow-500/20",
     },
     success: {
-      icon: "🔥",
-      title: "System Optimized",
-      color: "text-green-400",
-      bg: "bg-green-400/5",
-      border: "border-green-400/20",
-      glow: "shadow-[0_0_15px_rgba(74,222,128,0.1)]"
+      icon: "🎯",
+      color: "from-green-400 to-emerald-500",
+      glow: "shadow-green-500/20",
     },
-    info: {
-      icon: "🧠",
-      title: "Neural Sync",
-      color: "text-neon-purple",
-      bg: "bg-neon-purple/5",
-      border: "border-neon-purple/20",
-      glow: "shadow-[0_0_15px_rgba(124,58,237,0.1)]"
-    }
+    focus: {
+      icon: "🎯",
+      color: "from-purple-400 to-pink-500",
+      glow: "shadow-purple-500/20",
+    },
   };
 
-  const config = configs[type] || configs.info;
+  const current = config[type] || config.info;
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -20 }}
-      animate={{ opacity: 1, x: 0 }}
-      whileHover={{ scale: 1.01, x: 5 }}
-      className={`p-4 rounded-xl border ${config.bg} ${config.border} ${config.glow} flex items-start gap-4 transition-all duration-300`}
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+      className={`relative overflow-hidden rounded-2xl 
+      bg-white/5 backdrop-blur-2xl 
+      border border-white/10 
+      p-5 shadow-lg ${current.glow}`}
     >
-      <div className="text-2xl mt-1">{config.icon}</div>
-      <div className="flex-1">
-        <h4 className={`text-[10px] uppercase tracking-[0.2em] font-mono font-black ${config.color} mb-1.5`}>
-          {config.title}
-        </h4>
-        <p className="text-xs text-silver-300 font-sub leading-relaxed">
+      {/* Glow */}
+      <div
+        className={`absolute inset-0 bg-gradient-to-r ${current.color} opacity-10 blur-xl`}
+      />
+
+      <div className="relative z-10">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-3 text-silver-400">
+          <h3 className="text-[10px] uppercase font-mono font-black tracking-widest">
+            {title}
+          </h3>
+
+          <span className="text-xl filter drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]">{current.icon}</span>
+        </div>
+
+        {/* Message */}
+        <p className="text-white text-xs leading-relaxed font-sub">
           {message}
         </p>
       </div>
