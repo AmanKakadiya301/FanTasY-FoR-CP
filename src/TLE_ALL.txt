@@ -1,0 +1,682 @@
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+                Level - 1
+
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+
+    WEEK - 1: C++ Basic 1
+    ---------------------------------------
+
+    WEEK - 2: C++ Basic 2 + Online Judge Introduction
+    ---------------------------------------
+
+    WEEK - 3: Time and Space Complexity
+    ---------------------------------------
+
+    WEEK - 4: Problem Solving (general) 
+    ---------------------------------------
+
+    WEEK - 5: Number Theory
+    ---------------------------------------
+
+    WEEK - 6: Searching and Sorting
+    ---------------------------------------
+
+    WEEK - 7: C++ STL
+    ---------------------------------------
+
+    WEEK - 8: C++ STL 2
+    ---------------------------------------
+
+    WEEK - 9: Sliding Windows + Two Pointers
+    ---------------------------------------
+
+    Section: C++ Basics 1
+    Resources:
+        - Lecture slides 1.1 C++ Basics 1: https://drive.google.com/file/d/1wRiGozqal1s7YD0dH88dmS2ZNUR2Kqp1/view
+        -  C++ Basics 1.1 Feedback Form: https://forms.gle/p2DtZzQuQ2xmutae8
+        - Lecture Slides 1.1 Introduction to Online Judges: https://drive.google.com/file/d/1s9IQzo11vRofExgv5dkNdWcwLjoGNqnP/view
+        -  Introduction to Online Judges 1.1 Feedback Form: https://forms.gle/A3dohxG5ZjnnCcuT9
+        - Lecture Slides 1.2 Introduction to Online Judges	: https://drive.google.com/file/d/1s9IQzo11vRofExgv5dkNdWcwLjoGNqnP/view
+        - Introduction to Online Judges 1.2 Feedback Form	: https://forms.gle/A3dohxG5ZjnnCcuT9
+    Tasks:
+        - Task 1: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
+        - Task 2: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T
+        - Task 3: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F
+        - Task 4: https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/D
+        - Task 5: https://codeforces.com/problemset/problem/4/A
+        - Task 6: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G
+        - Task 7: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I
+        - Task 8: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
+        - Task 9: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L
+        - Task 10: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N
+        - Task 11: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y
+        - Task 12: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W
+        - Task 13: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V
+        - Task 14: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U
+        - Task 15: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z
+
+    Section: C++ Basics 2 + Online Judge Introduction
+    Resources:
+        - Lecture Slides C++ Basics 2: https://drive.google.com/file/d/1yoiTXwkI79m8gHESUwQb0YCD9fiW4BBb/view
+        - Feedback Form C++ Basics 2: https://forms.gle/nBSVjRK6xUNar4kE8
+    Tasks:
+        - Task 1: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K
+        - Task 2: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H
+        - Task 3: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C
+        - Task 4: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
+        - Task 5: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J
+        - Task 6: https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/O
+        - Task 7: https://codeforces.com/problemset/problem/1/A
+        - Task 8: https://codeforces.com/problemset/problem/630/A
+        - Task 9: https://codeforces.com/group/MWSDmqGsZm/contest/329103/problem/G
+        - Task 10: https://atcoder.jp/contests/abc258/tasks/abc258_a
+        - Task 11: https://codeforces.com/problemset/problem/271/A
+        - Task 12: https://codeforces.com/problemset/problem/1030/A
+        - Task 13: https://atcoder.jp/contests/abc263/tasks/abc263_a
+
+    Section: Time and Space Complexity
+    Resources:
+        - Lecture slides Time Complexity 23-04-2023 TLE 1: https://drive.google.com/file/d/1CyrW0c2nB7-vaJV4X5hbzS52-9HEmP7k/view
+        - Feedback Form Time Complexity 23-04-2023 TLE 1: https://forms.gle/dDbZ37HD8JWiyznb8
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/1535/A
+        - Task 2: https://codeforces.com/problemset/problem/214/A
+        - Task 3: https://codeforces.com/problemset/problem/320/A
+        - Task 4: https://www.hackerrank.com/challenges/summing-the-n-series/problem
+        - Task 5: https://www.hackerrank.com/challenges/number-groups/problem
+        - Task 6: https://codeforces.com/problemset/problem/758/A
+        - Task 7: https://codeforces.com/problemset/problem/1374/A
+        - Task 8: https://codeforces.com/problemset/problem/1512/A
+        - Task 9: https://codeforces.com/problemset/problem/199/A
+        - Task 10: https://codeforces.com/problemset/problem/1269/A
+        - Task 11: https://codeforces.com/problemset/problem/1496/A
+        - Task 12: https://codeforces.com/problemset/problem/1428/C
+        - Task 13: https://codeforces.com/problemset/problem/1633/C
+        - Task 14: https://codeforces.com/problemset/problem/1499/B
+
+    Section: Problem Solving (general)
+    Resources:
+        - Feedback Form Problem Solving 1 + Strings  30-04-2023 : https://forms.gle/kQ4wf4oJwnG4Kz2bA
+        - Lecture slides Problem Solving 1 + Strings 30-04-2023: https://drive.google.com/file/d/1IkzlzWHQtMTN8Zd0chvvLFl5WMDV3nQX/view
+    Tasks:
+        - Task 1: https://cses.fi/problemset/task/1083
+        - Task 2: https://cses.fi/problemset/task/1094
+        - Task 3: https://cses.fi/problemset/task/1713
+        - Task 4: https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
+        - Task 5: https://codeforces.com/problemset/problem/1335/C
+        - Task 6: https://codeforces.com/problemset/problem/1374/B
+        - Task 7: https://cses.fi/problemset/task/1071
+        - Task 8: https://cses.fi/problemset/task/1755
+        - Task 9: https://codeforces.com/problemset/problem/1343/C
+        - Task 10: https://codeforces.com/problemset/problem/1327/A
+
+    Section: Number Theory
+    Resources:
+        - Feedback Form Number Theory 2 : https://forms.gle/LiCo5Ckj252M7NFU6
+        - Lecture slides Number Theory 2: https://drive.google.com/file/d/1FKoGyCg2P2sTGmivYYPH790GOTWn_1ku/view
+    Tasks:
+        - Task 1: https://codeforces.com/contest/1549/problem/A
+        - Task 2: https://codeforces.com/problemset/problem/1475/A
+        - Task 3: https://codeforces.com/problemset/problem/1165/D
+        - Task 4: https://codeforces.com/problemset/problem/17/A
+        - Task 5: https://www.hackerrank.com/challenges/sherlock-and-divisors/problem
+        - Task 6: https://codeforces.com/problemset/problem/1474/B
+        - Task 7: https://codeforces.com/problemset/problem/1143/B
+        - Task 8: https://codeforces.com/problemset/problem/797/A
+        - Task 9: https://codeforces.com/problemset/problem/682/A
+        - Task 10: https://codeforces.com/problemset/problem/1521/A
+        - Task 11: https://www.codechef.com/problems/STRNO
+        - Task 12: https://codeforces.com/problemset/problem/1285/C
+        - Task 13: https://codeforces.com/problemset/problem/550/C
+
+    Section: Searching and Sorting
+    Resources:
+        - Lecture slides Searching and Sorting 21-05-2023: https://drive.google.com/file/d/1DEwBux8RGVaa1vXRG25WjGQ3l_lUFlvA/view
+        - Feedback Form Searching and Sorting 21-05-2023: https://forms.gle/LtCUeh5JNbpZHxVu9
+        - Feedback Form Binary Search 27-05-2023: https://forms.gle/KkjABM2xZRA5wQ94A
+        - Lecture slides Binary search 27-05-2023: https://drive.google.com/file/d/1nlGLIK_LCkx9RslW26IWIfC3-HcmsrLc/view
+    Tasks:
+        - Task 1: https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+        - Task 2: https://leetcode.com/problems/find-pivot-index/
+        - Task 3: https://leetcode.com/problems/sqrtx/
+        - Task 4: https://leetcode.com/problems/search-insert-position/
+        - Task 5: https://leetcode.com/problems/product-of-array-except-self/
+        - Task 6: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+        - Task 7: https://leetcode.com/problems/missing-number/
+        - Task 8: https://codeforces.com/problemset/problem/1675/B
+        - Task 9: https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/B
+        - Task 10: https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C
+        - Task 11: https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/D
+
+    Section: C++ STL
+    Resources:
+        - Lecture slides C++ STL 1 28-05-2023 `: https://drive.google.com/file/d/1N70APv9ppM-KDHKqVeWiPFscUHgCl_X8/view
+        - Feedback Form C++ STL 1 28-05-2023 `: https://forms.gle/YpVdVG3px5gzWUhD8
+    Tasks:
+        - Task 1: https://www.codechef.com/LRNDSA03/problems/SAVKONO
+        - Task 2: https://www.codechef.com/LRNDSA03/problems/CVOTE
+        - Task 3: https://www.codechef.com/LRNDSA03/problems/DPAIRS
+        - Task 4: https://www.codechef.com/LRNDSA03/problems/FENCE
+        - Task 5: https://www.codechef.com/LRNDSA04/problems/STACKS
+        - Task 6: https://www.codechef.com/LRNDSA04/problems/EURON
+        - Task 7: https://www.codechef.com/LRNDSA04/problems/QHOUSE
+        - Task 9: https://www.codechef.com/LRNDSA02/problems/NOTALLFL
+        - Task 8: https://cses.fi/problemset/task/1755
+        - Task 10: https://www.codechef.com/LRNDSA03/problems/EXUNC
+
+
+
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+                Level - 2
+
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+        
+
+
+
+    WEEK - 1: STL Revision
+    ---------------------------------------
+
+    WEEK - 2: Recursion + Memorization
+    ---------------------------------------
+
+    WEEK - 3: Backtracking
+    ---------------------------------------
+
+    WEEK - 4: Problem Solving 
+    ---------------------------------------
+
+    WEEK - 5: Prefix Sums, Difference Array, Circular Array
+    ---------------------------------------
+
+    WEEK - 6: DP + Recursion (Extra) 
+    ---------------------------------------
+
+    WEEK - 7: Advanced Number Theory
+    ---------------------------------------
+
+    WEEK - 8:  Two Pointers
+    ---------------------------------------
+
+    WEEK - 9:  Advanced Binary Search
+    ---------------------------------------
+
+    WEEK - 10:  Greedy Algorithms
+    ---------------------------------------
+
+    WEEK - 11:  Advanced Bit Manipulation + DP with Bit-Masking
+    ---------------------------------------
+
+
+    Section: C++ STL Revision
+    Resources:
+        - Lecture slides 2.1 C++ STL Revision: https://drive.google.com/file/d/1zVQFvG3_OXWi5svr-IaQgy_wXn-z6y6e/view
+        - Lecture slides 2.2 C++ STL Revision	: https://drive.google.com/file/d/1O8TqVHO-oEAvBa623Q_MltFV3fuo5xa-/view
+        - Feedback Form 2.1 C++ STL Revision: https://forms.gle/vWn5Ag21n6smv5579
+        - Feedback Form 2.2 C++ STL Revision	: https://forms.gle/vWn5Ag21n6smv5579
+    Tasks:
+        - Task 1: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
+        - Task 2: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K
+        - Task 4: https://codeforces.com/problemset/problem/734/A
+        - Task 5: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E
+        - Task 6: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X
+        - Task 7: https://codeforces.com/problemset/problem/4/A
+        - Task 8: https://codeforces.com/problemset/problem/71/A
+        - Task 9: https://codeforces.com/problemset/problem/50/A
+        - Task 10: https://leetcode.com/problems/kth-largest-element-in-a-stream/
+        - Task 11: https://leetcode.com/problems/valid-parentheses/
+        - Task 12: https://www.codechef.com/LRNDSA02/problems/ZCO12001
+        - Task 13: https://www.codechef.com/LRNDSA02/problems/COMPILER
+        - Task 14: https://codeforces.com/problemset/problem/1345/B
+        - Task 15: https://www.codechef.com/LRNDSA03/problems/SAVKONO
+        - Task 3: https://www.codechef.com/LRNDSA02/problems/STUPMACH
+
+    Section: Recursion + Memoization
+    Resources:
+        - Lecture slides Recursion & Memoization 16-04-2023 TLE 2.1: https://drive.google.com/file/d/1cT9_mXQqNUxS2qi0rB1yNURXPkB2rBvP/view
+        - Lecture slides Recursion & Memoization 16-04-2023 TLE 2.2: https://drive.google.com/file/d/18otKuwD-djiQyxJKVOiC0xb78WshXwep/view
+        -  Feedback Form Recursion & Memoization 16-04-2023 TLE 2.1: https://forms.gle/d8scPdPScnZtEVh8A
+        - Feedback Form Recursion & Memoization 16-04-2023 TLE 2.2: https://forms.gle/d8scPdPScnZtEVh8A
+    Tasks:
+        - Task 1: https://leetcode.com/problems/generate-parentheses
+        - Task 2: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+        - Task 3: https://practice.geeksforgeeks.org/problems/subset-sums2234/1
+        - Task 4: https://leetcode.com/problems/subsets-ii/
+        - Task 5: https://leetcode.com/problems/combination-sum/
+        - Task 6: https://leetcode.com/problems/combination-sum-ii/
+        - Task 7: https://leetcode.com/problems/palindrome-partitioning/
+        - Task 8: https://leetcode.com/problems/n-th-tribonacci-number/description/
+        - Task 9: https://leetcode.com/problems/climbing-stairs/
+        - Task 10: https://leetcode.com/problems/different-ways-to-add-parentheses/
+
+    Section: Backtracking
+    Resources:
+        - Lecture Slides Backtracking 22-04-2023 TLE 2: https://drive.google.com/file/d/1PAB-Wtm16ikCvbOt_RZT-JJRWxItgAAk/view
+        - Feedback Form Backtracking 22-04-2023 TLE 2: https://forms.gle/YxeWHruZ2qAvaKKS6
+    Tasks:
+        - Task 1: https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620
+        - Task 2: https://www.codingninjas.com/codestudio/problems/983635
+        - Task 3: https://leetcode.com/problems/sudoku-solver/
+        - Task 4: https://leetcode.com/problems/permutations/
+        - Task 5: https://leetcode.com/problems/count-good-numbers/description/
+        - Task 6: https://leetcode.com/problems/powx-n/
+        - Task 7: https://practice.geeksforgeeks.org/problems/knight-walk4521/1
+        - Task 8: https://leetcode.com/problems/word-break/
+        - Task 9: https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1
+        - Task 10: https://practice.geeksforgeeks.org/problems/sum-string3151/1
+
+    Section: Problem Solving
+    Resources:
+        - Lecture Slides Backtracking 01-05-2023 TLE 2: https://drive.google.com/file/d/1dQT870uj60Xukpsi5Wx2anQ7LfeNanW9/view
+    Tasks:
+        - Task 1: https://leetcode.com/problems/n-queens/
+        - Task 2: https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/V
+        - Task 3: https://cses.fi/problemset/task/1624
+        - Task 4: https://leetcode.com/problems/permutations-ii/
+        - Task 5: https://leetcode.com/problems/k-th-symbol-in-grammar/
+        - Task 6: https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e
+        - Task 7: https://cses.fi/problemset/task/1625
+
+    Section: Prefix Sums, Difference Array, Circular Array
+    Resources:
+        - Feedback Form Prefix Sums and Difference Arrays 14-05-2023 T: https://forms.gle/nhVujZdx6HqwyVfA9
+        - Lecture slides Prefix Sums and Difference Arrays: https://drive.google.com/file/d/1ETl8B1UfHFgZK4gfy1a-GxvFYzYnLqJp/view
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/816/B
+        - Task 2: https://leetcode.com/problems/next-greater-element-ii/
+        - Task 3: https://codeforces.com/contest/1681/problem/B
+        - Task 4: https://leetcode.com/problems/k-diff-pairs-in-an-array
+        - Task 5: https://leetcode.com/problems/matrix-block-sum
+        - Task 6: https://codeforces.com/contest/276/problem/C
+        - Task 7: https://codeforces.com/contest/295/problem/A
+        - Task 8: https://www.codechef.com/CENS2020/problems/CENS20A
+        - Task 9: https://atcoder.jp/contests/abc179/tasks/abc179_d
+        - Task 10: https://www.codechef.com/BYTR20B/problems/AGCY
+        - Task 11: https://codeforces.com/contest/177/problem/D2
+
+    Section: DP+Recursion (Extra)
+
+    Section: Advanced Number Theory
+    Resources:
+        - Lecture slides Advanced Number Theory 21-05-2023 : https://drive.google.com/file/d/1_mFXLuo3ETDUOd84dKmMMey1MfonkhSf/view
+        - Feedback Form Advanced Number Theory 21-05-2023: https://docs.google.com/forms/d/e/1FAIpQLSdhoZCuhFcggQfZLCu0OG0jLDgRlEsN4n5llXvB8b3EjNZRqg/viewform
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/1828/B
+        - Task 2: https://codeforces.com/contest/797/problem/A
+        - Task 3: https://codeforces.com/contest/1360/problem/D
+        - Task 4: https://codeforces.com/problemset/problem/1679/A
+        - Task 5: https://codeforces.com/problemset/problem/230/B
+        - Task 6: https://www.codechef.com/problems/GCDQ
+        - Task 7: https://codeforces.com/problemset/problem/1474/B
+        - Task 8: https://codeforces.com/contest/1656/problem/C
+        - Task 9: https://cses.fi/problemset/task/2417
+        - Task 10: https://codeforces.com/contest/1458/problem/A
+
+    Section: Problem Solving
+
+    Section: Two pointers
+    Resources:
+        - Lecture slides Two Pointers 28-05-2023 TLE 2`: https://drive.google.com/file/d/194-29Hif6PbY6BbDOqO3_-YciI3lnmDd/view
+        - Feedback Form Two Pointers 28-05-2023 TLE 2`: https://forms.gle/JAKfgh3iwm58KkPA7
+    Tasks:
+        - Task 1: https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C
+        - Task 2: https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C
+        - Task 3: https://cses.fi/problemset/task/1641
+        - Task 4: https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D
+        - Task 5: https://codeforces.com/problemset/problem/253/B
+        - Task 6: https://codeforces.com/problemset/problem/978/C
+        - Task 7: https://codeforces.com/problemset/problem/961/B
+        - Task 8: https://codeforces.com/problemset/problem/920/C
+        - Task 9: https://codeforces.com/problemset/problem/1538/C
+        - Task 10: https://codeforces.com/problemset/problem/1535/C
+        - Task 11: https://codeforces.com/problemset/problem/1366/B
+        
+        
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+                Level - 3
+
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+    WEEK - 1: String Hashing and Tricks
+    ---------------------------------------
+
+    WEEK - 2: Greedy Algorithms
+    ---------------------------------------
+
+    WEEK - 3: Problem Solving (greedy)
+    ---------------------------------------
+
+    WEEK - 4: Binary Search (advanced) + Ternary Search
+    ---------------------------------------
+
+    WEEK - 5: Problem Solving (Binary search + Interactive)
+    ---------------------------------------
+
+    WEEK - 6: 2 Pointers + Sliding Window
+    ---------------------------------------
+
+    WEEK - 7: Number Theory (advanced)
+    ---------------------------------------
+
+    WEEK - 8: Combinatorics + problem solving
+    ---------------------------------------
+
+    WEEK - 9: Dynamic Programming Introduction
+    ---------------------------------------
+
+    WEEK - 10: Problem solving (DP)
+
+    Section: String Hashing and Tricks
+    Resources:
+        - Lecture Slides String Hashing and Tricks: https://drive.google.com/file/d/1o6e17teKvKtjmsdzbJNoDXFvjaktydCI/view
+        - Feedback Form String Hashing and Tricks: https://forms.gle/KkL1xHizQa7qyKeb8
+    Tasks:
+        - Task 1: https://cses.fi/problemset/task/1755
+        - Task 2: https://leetcode.com/problems/group-anagrams
+        - Task 3: https://cses.fi/problemset/task/1753/
+        - Task 4: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+        - Task 5: https://cses.fi/problemset/task/1732
+        - Task 6: https://www.geeksforgeeks.org/count-number-of-distinct-substring-in-a-string/
+        - Task 7: https://codeforces.com/problemset/problem/126/B
+        - Task 8: https://leetcode.com/problems/repeated-dna-sequences
+        - Task 9: https://codeforces.com/problemset/problem/385/B
+        - Task 10: https://codeforces.com/problemset/problem/271/D
+
+    Section: Greedy algorithms
+    Resources:
+        - Lecture Slides Greedy Algorithms 17-04-2023 TLE 3: https://drive.google.com/file/d/1MVe293n7ojRql71E7ZIniA0Q6eVbrwOW/view
+        - Feedback Form Greedy Algorithms 17-04-2023 TLE 3: https://forms.gle/isLJtN6Z5qgCqmq99
+    Tasks:
+        - Task 1: https://leetcode.com/problems/maximum-product-subarray/
+        - Task 2: https://codeforces.com/problemset/problem/1285/B
+        - Task 3: https://codeforces.com/problemset/problem/1291/B
+        - Task 4: https://leetcode.com/problems/jump-game-ii/
+        - Task 5: https://codeforces.com/problemset/problem/1294/C
+        - Task 6: https://leetcode.com/problems/maximum-score-of-spliced-array/
+        - Task 7: https://codeforces.com/problemset/problem/1815/A
+        - Task 8: https://codeforces.com/problemset/problem/1810/C
+        - Task 9: https://codeforces.com/problemset/problem/1773/E
+        - Task 10: https://codeforces.com/problemset/problem/1765/N
+        - Task 12: https://codeforces.com/problemset/problem/1693/A
+        - Task 13: https://codeforces.com/problemset/problem/91/A
+        - Task 14: https://codeforces.com/problemset/problem/1660/C
+        - Task 15: https://codeforces.com/problemset/problem/1742/F
+        - Task 16: https://codeforces.com/problemset/problem/1380/B
+        - Task 17: https://codeforces.com/problemset/problem/1338/A
+        - Task 11: https://codeforces.com/problemset/problem/797/C
+
+    Section: Problem solving (greedy)
+    Resources:
+        - Lecture Slides Greedy Problem Solving 23-04-2023: https://drive.google.com/file/d/1cD6VQoV-5Ut-THehqPOy8DSXYTYK7USh/view
+        - Feedback Form Greedy Problem Solving 23-04-2023: https://forms.gle/p2JZwMKL7uAUJkoeA
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/950/C
+        - Task 2: https://codeforces.com/problemset/problem/898/D
+        - Task 3: https://codeforces.com/problemset/problem/771/B
+        - Task 4: https://codeforces.com/problemset/problem/154/A
+        - Task 5: https://codeforces.com/problemset/problem/250/C
+        - Task 6: https://codeforces.com/problemset/problem/293/A
+        - Task 7: https://codeforces.com/problemset/problem/328/B
+        - Task 8: https://codeforces.com/problemset/problem/333/A
+        - Task 9: https://codeforces.com/problemset/problem/436/A
+        - Task 10: https://codeforces.com/problemset/problem/494/A
+
+    Section: Binary Search (advanced) + Ternary search
+    Resources:
+        - Lecture slides Binary Search + Ternary Search 30-04-2023 : https://drive.google.com/file/d/1bRZTV0EfO3vxr0IHf60HQ5u_iHf8xrFX/view
+        - Feedback Form Binary Search + Ternary Search 30-04-2023: https://forms.gle/k1Pyz9hMMNc6LsvJ6
+    Tasks:
+        - Task 2: https://cses.fi/problemset/task/1620
+        - Task 3: https://www.spoj.com/problems/AGGRCOW/
+        - Task 4: https://codeforces.com/problemset/problem/1622/C
+        - Task 5: https://codeforces.com/contest/847/problem/B
+        - Task 6: https://codeforces.com/problemset/problem/1610/C
+        - Task 7: https://codeforces.com/contest/782/problem/B
+        - Task 8: https://codeforces.com/problemset/problem/1619/D
+        - Task 9: https://codeforces.com/contest/1201/problem/C
+        - Task 10: https://codeforces.com/problemset/problem/1117/C
+        - Task 11: https://www.codechef.com/problems/AMCS03
+        - Task 12: https://cses.fi/problemset/task/2422
+        - Task 13: https://codeforces.com/problemset/problem/578/C
+        - Task 1: https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B
+
+    Section: Problem solving (Binary search + interactive)
+    Resources:
+        - Lecture slides Binary search + Interactive: https://drive.google.com/file/d/15wSZqWAjar2hYfWOda-shIu5Gk8JP23b/view
+        - Feedback Form Binary Search + Interactive: https://forms.gle/wLphTUed1UokwSGQ7
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/1520/F1
+        - Task 2: https://codeforces.com/problemset/problem/1425/F
+        - Task 3: https://codeforces.com/problemset/problem/493/C
+        - Task 4: https://codeforces.com/problemset/problem/1624/D
+        - Task 5: https://codeforces.com/problemset/problem/1486/C1
+        - Task 6: https://codeforces.com/problemset/problem/1698/D
+        - Task 7: https://codeforces.com/problemset/problem/1487/D
+        - Task 8: https://codeforces.com/problemset/problem/1729/E
+
+    Section: 2 Pointers + Sliding Window
+    Resources:
+        - Lecture slides Two Pointers 21-05-2023 : https://drive.google.com/file/d/1hogl04t7CGrihq2fRjbHp2v8blWhM_ec/view
+        - Feedback Form Two Pointers 21-05-2023: https://forms.gle/g7r6jfF11XznUCXY9
+        - Lecture slides Sliding Window  24-05-2023 : https://drive.google.com/file/d/1JNcMt7jGPPr6T9hp3Zl5NvOso6zM8BvH/view
+        - Feedback Form Sliding Window 24-05-2023: https://forms.gle/txjzMQTasPhKuKid8
+    Tasks:
+        - Task 1: https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C
+        - Task 2: https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D
+        - Task 3: https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/F
+        - Task 4: https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/B
+        - Task 5: https://codeforces.com/problemset/problem/702/C
+        - Task 6: https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/A
+        - Task 7: https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/C
+        - Task 8: https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+        - Task 9: https://codeforces.com/problemset/problem/1251/C
+        - Task 10: https://leetcode.com/problems/sliding-window-maximum/
+        - Task 11: https://cses.fi/problemset/task/1644
+        - Task 12: https://cses.fi/problemset/task/1076
+        - Task 13: https://leetcode.com/problems/permutation-in-string/
+        - Task 14: https://cses.fi/problemset/task/1077
+        - Task 15: https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+
+    Section: Number theory (advanced)
+    Resources:
+        - Lecture slides Number Theory Advanced 1 28-05-2023 TLE: https://drive.google.com/file/d/1maEt1gAso05mTQx25L8uf3TdMDFP8dbk/view
+        - Feedback Form Number Theory Advanced 1 28-05-2023 TLE: https://forms.gle/v3qdqSTzCBtZWbor8
+        - Lecture slides Number Theory Advanced 2 29-05-2023 TLE: https://drive.google.com/file/d/1PKkHSFZ-s421Bo0EQ3pFM9uXgIlx-8RX/view
+        - Feedback Form Number Theory Advanced 2 29-05-2023 TLE: https://forms.gle/gtU7bXT5eXoQzkUJA
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/154/B
+        - Task 2: https://codeforces.com/problemset/problem/284/A
+        - Task 3: https://codeforces.com/problemset/problem/343/A
+        - Task 4: https://codeforces.com/problemset/problem/375/A
+        - Task 5: https://codeforces.com/problemset/problem/495/B
+        - Task 6: https://codeforces.com/problemset/problem/576/A
+        - Task 7: https://codeforces.com/problemset/problem/735/D
+        - Task 8: https://codeforces.com/problemset/problem/1349/A
+        - Task 9: https://codeforces.com/problemset/problem/1458/A
+        - Task 10: https://www.spoj.com/problems/VECTAR8/
+        - Task 11: https://www.spoj.com/problems/HS08PAUL/
+        
+        
+        
+        
+
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+                Level - 4
+
+    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
+
+    WEEK - 1: DP Beginner
+    ---------------------------------------
+
+    WEEK - 2: DP Intermediate
+    ---------------------------------------
+
+    WEEK - 3: DP Advanced
+    ---------------------------------------
+
+    WEEK - 4: Range Queries Beginner
+    ---------------------------------------
+
+    WEEK - 5: Range Queries Intermediate
+    ---------------------------------------
+
+    WEEK - 6: Trees Beginner
+    ---------------------------------------
+
+    WEEK - 7: Trees Advanced
+    ---------------------------------------
+
+    WEEK - 8: Graphs Beginner
+    ---------------------------------------
+
+    WEEK - 9: Graphs Intermediate
+    ---------------------------------------
+
+    WEEK - 10: Graphs Advanced
+    ---------------------------------------
+
+    Section: DP Beginner
+    Resources:
+        - Lecture Slides 1.1 Dynamic Programming | 10-04-2023 : https://drive.google.com/file/d/1ulcycud_rHLC4EJf9dHmONSvOuf4V5lD/view
+        - Feedback Form DP 1.1: https://forms.gle/5acufGLWxDRHXhER8
+        - Lecture Slides 1.2 Dynamic Programming | 13-04-2023 : https://drive.google.com/file/d/1OHX1miM1yo6RiKF3EtzOdCilCzWc5vzb/view
+        - Feedback Form DP 1.2: https://forms.gle/HscogW5hFFxKu8ka8
+    Tasks:
+        - Task 1: https://cses.fi/problemset/task/1633
+        - Task 2: https://cses.fi/problemset/task/1634
+        - Task 3: https://cses.fi/problemset/task/1635
+        - Task 4: https://codeforces.com/problemset/problem/1350/B
+        - Task 5: https://cses.fi/problemset/task/1636
+        - Task 6: https://cses.fi/problemset/task/1637
+        - Task 7: https://cses.fi/problemset/task/1638
+        - Task 8: https://codeforces.com/problemset/problem/455/A
+        - Task 9: https://atcoder.jp/contests/dp/tasks/dp_e
+        - Task 10: https://cses.fi/problemset/task/1158
+        - Task 11: https://codeforces.com/problemset/problem/1288/C
+        - Task 12: https://cses.fi/problemset/task/1745
+        - Task 13: https://atcoder.jp/contests/dp/tasks/dp_m
+        - Task 14: https://codeforces.com/problemset/problem/166/E
+        - Task 15: https://cses.fi/problemset/task/1140
+        - Task 16: https://cses.fi/problemset/task/1639
+        - Task 17: https://atcoder.jp/contests/dp/tasks/dp_i
+
+    Section: DP Intermediate
+    Resources:
+        - Lecture Slides DP 2.1 16-04-2023 TLE 4	: https://drive.google.com/file/d/10FwpkyIXh4Pt7cP3ULds4N4dm9_2zZwr/view
+        - Feedback Form DP 2.1 16-04-2023 TLE 4: https://forms.gle/VrDYw4HW5E37gecFA
+        - Lecture Slides DP 2.2 18-04-2023 TLE 4	: https://drive.google.com/file/d/1utKvMRTLNrL00--xdMePKXA2Pdns2Soa/view
+        - Feedback Form DP 2.2 18-04-2023 TLE 4	: https://forms.gle/rfPy7kGfzThSoXog8
+        - Lecture Slides DP 2.3  21-04-2023 TLE 4 : https://drive.google.com/file/d/1GlZxCYD0Si9MnBSkyQtU-prcyvkuc45N/view
+        - Feedback Form DP 2.3 21-04-2023 TLE 4: https://forms.gle/YaTzzVdAHStNPDbw7
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/1389/B
+        - Task 2: https://codeforces.com/problemset/problem/1249/E
+        - Task 3: https://codeforces.com/contest/1151/problem/B
+        - Task 4: https://codeforces.com/problemset/problem/1498/C
+        - Task 5: https://codeforces.com/problemset/problem/1625/C
+        - Task 6: https://codeforces.com/problemset/problem/1392/D
+        - Task 7: https://codeforces.com/problemset/problem/1077/F1
+        - Task 8: https://atcoder.jp/contests/dp/tasks/dp_n
+        - Task 9: https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e
+        - Task 10: https://codeforces.com/problemset/problem/1360/F
+
+    Section: DP Advanced
+    Resources:
+        - Lecture Slides DP 3.1  24-04-2023 TLE 4 : https://drive.google.com/file/d/1N4TGvX_KNPvznHT25tMrl0qchzn0g-pe/view
+        - Feedback Form DP 3.1 24-04-2023 TLE 4: https://forms.gle/8jRK5Pb5fnrtNMLL7
+        - Lecture slides Bitmask DP 3.2 25-04-2023 TLE 4: https://drive.google.com/file/d/18BAaauVwHRb7vprxGkJpDdgmX-2iZhC5/view
+        - Feedback Form Bitmask DP 3.2 25-04-2023 TLE 4: https://forms.gle/2tstenk7AKRnPSfH7
+    Tasks:
+        - Task 2: https://cses.fi/problemset/task/1140
+        - Task 3: https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/
+        - Task 4: https://www.codechef.com/problems/TSHIRTS
+        - Task 5: https://atcoder.jp/contests/dp/tasks/dp_o
+        - Task 6: https://cses.fi/problemset/task/1653
+        - Task 7: https://codeforces.com/problemset/problem/895/C
+        - Task 8: https://www.spoj.com/problems/COURIER/
+        - Task 9: https://codeforces.com/contest/580/problem/D
+        - Task 10: https://www.spoj.com/problems/ASSIGN/
+
+    Section: Range Queries Beginner
+    Resources:
+        - Feedback Form Segment Trees 30-04-2023 TLE 4: https://forms.gle/qdit2yYdggLEaTKF7
+        - Feedback Form Range Queries 2 03-05-2023 : https://forms.gle/J38XnnJqRdeyyQfk9
+        - Lecture slides  Segment Trees 30-04-2023 TLE 4: https://drive.google.com/file/d/1LKwOwkzUHtVqUbz39WbompLbu9LXD3cZ/view
+        - Lecture slides Range Queries 2 03-05-2023: https://drive.google.com/file/d/1Pp812umcLINaxfY70xnhFv2xkfGbrTfW/view
+    Tasks:
+        - Task 1: https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/A
+        - Task 2: https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B
+        - Task 3: https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/C
+        - Task 4: https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/A
+        - Task 5: https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/B
+        - Task 6: https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/D
+        - Task 7: https://codeforces.com/contest/339/problem/D
+        - Task 8: https://codeforces.com/contest/380/problem/C
+        - Task 9: https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/A
+        - Task 10: https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/B
+        - Task 11: https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/C
+        - Task 12: https://codeforces.com/contest/52/problem/C
+        - Task 13: https://codeforces.com/edu/course/2/lesson/4/3/practice/contest/274545/problem/C
+        - Task 14: https://codeforces.com/contest/242/problem/E
+        - Task 15: https://cses.fi/problemset/task/2422
+        - Task 16: https://codeforces.com/problemset/problem/578/C
+
+    Section: Range Queries Intermediate
+    Resources:
+        - Lecture slides Fenwick Trees+ Sparse Table: https://drive.google.com/file/d/1obdwS0Us9VdnoyzrBA9O6_28kcem2TQo/view
+        - Feedback Form Generic Segment Trees  20-05-2023 : https://forms.gle/Rc5mB8NfKwjsnjHD8
+        - Generic Segment Tree with Lazy Propogation: https://github.com/Priyansh19077/CP-Templates/blob/master/Range%20Queries/Lazy_SGT.cpp
+        - Generic Segment Tree: https://github.com/Priyansh19077/CP-Templates/blob/master/Range%20Queries/Segment_tree.cpp
+    Tasks:
+        - Task 1: https://cses.fi/problemset/task/1648
+        - Task 2: https://codeforces.com/problemset/problem/1709/D
+        - Task 3: https://codeforces.com/contest/597/problem/C
+        - Task 4: https://codeforces.com/problemset/problem/704/A
+        - Task 5: https://codeforces.com/contest/863/problem/E
+        - Task 6: https://codeforces.com/contest/276/problem/C
+        - Task 7: https://codeforces.com/contest/669/problem/E
+        - Task 8: https://codeforces.com/problemset/problem/514/D
+        - Task 9: https://codeforces.com/contest/5/problem/C
+        - Task 10: https://codeforces.com/contest/482/problem/B
+
+    Section: Trees Beginner
+    Resources:
+        - Lecture Slides Trees 1 (Introduction): https://drive.google.com/file/d/1qwEjWvfP-talBIJHDtVmHl-AJ73_R3bC/view
+        - Feedback Form Trees 1 (Introduction): https://forms.gle/vPfhHGBWGnqBzwWV6
+        - Lecture slides Trees 2 (Binary Lifting & Euler Tour): https://drive.google.com/file/d/172dR1yuinq5JygH1-7dyuFlYPLqgXSvJ/view
+    Tasks:
+        - Task 1: https://codeforces.com/problemset/problem/580/C
+        - Task 2: https://codeforces.com/problemset/problem/1336/A
+        - Task 3: https://codeforces.com/problemset/problem/1388/C
+        - Task 4: https://cses.fi/problemset/task/1131
+        - Task 5: https://codeforces.com/problemset/problem/1593/E
+        - Task 6: https://codeforces.com/problemset/problem/1143/C
+        - Task 7: https://codeforces.com/problemset/problem/369/C
+        - Task 8: https://codeforces.com/problemset/problem/780/C
+        - Task 9: https://codeforces.com/problemset/problem/930/A
+        - Task 10: https://codeforces.com/problemset/problem/1037/D
+
+    Section: Trees Advanced
+    Resources:
+        - Lecture slides Trees 3 (Euler Tour) 28-05-2023 TLE: https://drive.google.com/file/d/1S8CtGNKgQCcMDaIBqS10XNC_-BSn_p_O/view
+        - Feedback Form Trees 3 (Euler Tour) 28-05-2023 TLE: https://forms.gle/JAv4ZDkpFJPHXpQH9
+        - Lecture slides Trees 4 (DP on trees) 01-06-2023 : https://drive.google.com/file/d/1C8Sz3t5ynSjwGp0qFS5Nh2z_zbqBOeh9/view
+    Tasks:
+        - Task 1: https://cses.fi/problemset/task/1687
+        - Task 2: https://cses.fi/problemset/task/1688
+        - Task 3: https://cses.fi/problemset/task/1135
+        - Task 4: https://cses.fi/problemset/task/1136
+        - Task 5: https://codeforces.com/problemset/problem/191/C
+        - Task 6: https://codeforces.com/contest/1294/problem/F
+        - Task 7: https://codeforces.com/contest/1324/problem/F
+        - Task 8: https://codeforces.com/problemset/problem/1092/F
+        - Task 9: https://codeforces.com/problemset/problem/685/B
+        - Task 10: https://codeforces.com/problemset/problem/1746/D

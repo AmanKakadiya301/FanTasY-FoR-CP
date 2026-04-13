@@ -3,14 +3,12 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_NEW_API_KEY",
+  apiKey: "AIzaSyDtdLMX4yGpDoeEKlDuTYAvJSxg77z3Az0",
   authDomain: "fantasy-for-cp.firebaseapp.com",
-  databaseURL: "https://fantasy-for-cp-default-rtdb.firebaseio.com",
   projectId: "fantasy-for-cp",
   storageBucket: "fantasy-for-cp.firebasestorage.app",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID"
+  messagingSenderId: "143043732551",
+  appId: "1:143043732551:web:0d6e8f91e3bcf2cebb7d62"
 };
 
 // Initialize Firebase
