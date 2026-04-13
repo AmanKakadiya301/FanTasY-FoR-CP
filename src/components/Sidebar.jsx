@@ -36,8 +36,6 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
     if (setActiveTopic) setActiveTopic(safeId);
     
     // safeId is formatting logic from Roadmap.jsx
-    // Wait, the sidebar doesn't scrollTo Topic here, it scrolls to Week or just the first topic.
-    // Let's just scroll to the Week or let app handle it if we pass a week ID.
     const el = document.getElementById(safeId);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -48,10 +46,12 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
   }
 
   const handleLogout = async () => {
+    sessionStorage.setItem('localLoggedOut', 'true');
     await signOut(auth);
+    window.location.reload();
   };
 
-  const displayName = user?.displayName || user?.email?.split('@')[0] || 'Adventurer';
+  const displayName = user?.displayName || user?.email?.split('@')[0] || 'Runner';
   const displayEmail = user?.email || '';
   const avatarUrl = user?.photoURL;
 
@@ -59,29 +59,27 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
     <>
       {sidebarOpen && (
         <div 
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 lg:hidden"
+          className="fixed inset-0 bg-black/80 backdrop-blur-md z-40 lg:hidden transition-all duration-300"
           onClick={() => setSidebarOpen(false)}
         />
       )}
 
       <aside
-        className={`fixed left-0 top-0 bottom-0 h-screen w-[260px] z-[100] transition-transform duration-300 ease-out flex flex-col custom-scrollbar
+        className={`fixed left-0 top-0 bottom-0 h-screen w-[260px] z-[100] transition-transform duration-300 ease-out flex flex-col custom-scrollbar border-r border-white/5
           ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}
         style={{
-          background: '#0b0b0f',
-          borderRight: '1px solid rgba(255,255,255,0.05)',
+          background: 'rgba(5, 7, 15, 0.7)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
         }}
       >
-        <div className="flex flex-col pt-6 pb-2 px-5 sticky top-0 z-10" style={{ background: 'linear-gradient(180deg, rgba(11,11,15,1), rgba(11,11,15,0.95) 80%, transparent)' }}>
-          <div className="flex items-center gap-3 w-full">
-            <div className="w-8 h-8 flex items-center justify-center">
-              <span className="text-2xl sparkle-icon">✨</span>
-            </div>
-            <h1 className="font-display text-lg font-bold tracking-widest gold-text">
+        <div className="flex flex-col pt-6 pb-2 px-5 sticky top-0 z-10" style={{ background: 'linear-gradient(180deg, rgba(5,7,15,1), rgba(5,7,15,0.9) 70%, transparent)' }}>
+          <div className="flex items-center justify-between w-full">
+            <h1 className="font-display text-lg font-bold tracking-widest neon-text">
               FANTASY
             </h1>
             <button 
-              className="ml-auto p-1.5 lg:hidden text-silver-600 hover:text-white transition-colors"
+              className="p-1.5 lg:hidden text-silver-600 hover:text-white hover:text-shadow-[0_0_8px_#ffffff] transition-all"
               onClick={() => setSidebarOpen(false)}
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -94,10 +92,10 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
         <nav className="flex-1 flex flex-col py-4 px-3 space-y-0.5 overflow-y-auto custom-scrollbar">
           <button
             onClick={() => scrollToSection('dashboard-top')}
-            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors duration-200 text-silver-400 hover:text-white hover:bg-white/[0.03] mb-4"
+            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200 text-silver-400 hover:text-white hover:bg-white/[0.03] hover:translate-x-1 mb-4"
           >
-            <span className="text-sm flex-shrink-0 w-5 text-center font-mono opacity-80">⊞</span>
-            <span className="text-[13px] font-medium tracking-wide">Progress Summary</span>
+            <span className="text-sm flex-shrink-0 w-5 text-center font-mono opacity-80 group-hover:text-neon-cyan">⊞</span>
+            <span className="text-[13px] font-sub font-medium tracking-wide">Progress Summary</span>
           </button>
 
           {levels && levels.map((level) => {
@@ -106,18 +104,18 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
               <div key={level.level} className="mb-2">
                 <button
                   onClick={() => toggleLevel(level.level)}
-                  className="w-full flex items-center justify-between px-3 py-2 text-left rounded-lg transition-colors hover:bg-white/[0.05]"
+                  className="w-full flex items-center justify-between px-3 py-2 text-left rounded-lg transition-all hover:bg-white/[0.05]"
                 >
-                  <span className="text-[11px] uppercase tracking-[0.2em] text-silver-500 font-bold">
+                  <span className="text-[11px] uppercase tracking-widest text-neon-cyan/70 font-bold font-display">
                     {level.title}
                   </span>
-                  <span className={`text-silver-600 transition-transform ${isExpanded ? 'rotate-180' : ''}`}>
+                  <span className={`text-neon-cyan/50 transition-transform duration-300 ${isExpanded ? 'rotate-180 text-neon-cyan' : ''}`}>
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                   </span>
                 </button>
                 
                 {isExpanded && (
-                  <div className="mt-1 space-y-0.5">
+                  <div className="mt-1 space-y-1">
                     {level.weeks.map((week) => {
                       const { done, total, pct } = getWeekProgress(week);
                       // ID to scroll to: we can use the first topic's safeId if topics exist
@@ -130,29 +128,34 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
                         <button
                           key={week.week}
                           onClick={() => targetId && scrollToSection(targetId)}
-                          className="w-full flex items-center gap-3 px-3 py-2 rounded-lg transition-all duration-200 group text-silver-400 hover:text-silver-200 hover:bg-white/[0.03]"
+                          className={`w-full flex items-center gap-3 px-3 py-2 rounded-lg transition-all duration-200 group hover:translate-x-1
+                             ${activeTopic && activeTopic.startsWith(`level${level.level}_week${week.week}`) 
+                                ? 'nav-active bg-white/[0.05] text-white shadow-[inset_0_0_20px_rgba(34,211,238,0.1)]' 
+                                : 'text-silver-400 hover:text-silver-200 hover:bg-white/[0.03]'}`}
                         >
                           <div className="flex-1 min-w-0 text-left">
-                            <div className="text-[12px] font-medium tracking-wide truncate">
+                            <div className={`text-[12px] font-sub font-medium tracking-wide truncate ${pct === 100 ? 'text-neon-cyan' : ''}`}>
                               Week {week.week}
                             </div>
                             <div className="flex items-center gap-2 mt-1">
                               <div className="flex-1 h-[2px] bg-white/[0.05] rounded-full overflow-hidden">
                                 <div
-                                  className="h-full rounded-full transition-all duration-700"
+                                  className="h-full rounded-full transition-all duration-700 relative"
                                   style={{
                                     width: `${pct}%`,
                                     background: pct === 100
-                                      ? 'linear-gradient(90deg, #d4af37, #fdf5e6)'
-                                      : 'linear-gradient(90deg, rgba(212,175,55,0.4), rgba(212,175,55,0.1))',
+                                      ? 'linear-gradient(90deg, #22D3EE, #7C3AED)'
+                                      : 'linear-gradient(90deg, rgba(34,211,238,0.4), rgba(124,58,237,0.4))',
                                   }}
-                                />
+                                >
+                                  {pct > 0 && <div className="absolute right-0 top-0 bottom-0 w-4 bg-white/50 blur-[2px]" />}
+                                </div>
                               </div>
                               <span className="text-[9px] text-silver-600 font-mono tabular-nums">{done}/{total}</span>
                             </div>
                           </div>
                           {pct === 100 && total > 0 && (
-                            <span className="text-[10px] sparkle-icon shadow-sm">✨</span>
+                            <span className="text-[10px] drop-shadow-[0_0_8px_rgba(34,211,238,0.8)]">⚡</span>
                           )}
                         </button>
                       );
@@ -164,19 +167,19 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
           })}
         </nav>
 
-        <div className="sticky bottom-0 z-10 px-3 pb-4 pt-3" style={{ background: 'linear-gradient(0deg, rgba(11,11,15,1) 60%, transparent)' }}>
-          <div className="border-t border-white/[0.06] pt-3">
-            <div className="flex items-center gap-3 px-2">
+        <div className="sticky bottom-0 z-10 px-3 pb-4 pt-3" style={{ background: 'linear-gradient(0deg, #05070f 80%, transparent)' }}>
+          <div className="border-t border-white/[0.06] pt-3 px-2">
+            <div className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform">
               {avatarUrl ? (
                 <img 
                   src={avatarUrl} 
                   alt={displayName} 
-                  className="w-8 h-8 rounded-full border border-gold-500/30 flex-shrink-0 object-cover"
+                  className="w-8 h-8 rounded-full border border-neon-cyan/30 flex-shrink-0 object-cover shadow-[0_0_10px_rgba(34,211,238,0.2)]"
                   referrerPolicy="no-referrer"
                 />
               ) : (
-                <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 text-[11px] font-bold text-obsidian"
-                  style={{ background: 'linear-gradient(135deg, #d4af37, #fdf5e6)' }}>
+                <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 text-[11px] font-bold text-white shadow-[0_0_15px_rgba(124,58,237,0.4)]"
+                  style={{ background: 'linear-gradient(135deg, #7C3AED, #3B82F6)' }}>
                   {displayName.charAt(0).toUpperCase()}
                 </div>
               )}
@@ -190,11 +193,11 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
 
               <button
                 onClick={handleLogout}
-                className="p-1.5 rounded-lg text-silver-600 hover:text-red-400 hover:bg-red-500/10 transition-all duration-300 flex-shrink-0"
+                className="p-2 rounded-lg text-silver-600 hover:text-neon-pink hover:bg-neon-pink/10 hover:shadow-[0_0_10px_rgba(236,72,153,0.3)] transition-all duration-300 flex-shrink-0 group"
                 title="Sign Out"
                 id="sidebar-logout"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
                 </svg>
               </button>

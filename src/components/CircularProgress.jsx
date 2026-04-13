@@ -26,7 +26,7 @@ export default function CircularProgress({ percentage, size = 180, strokeWidth =
               <line
                 key={i}
                 x1={x1} y1={y1} x2={x2} y2={y2}
-                stroke="rgba(255,255,255,0.03)"
+                stroke="rgba(255,255,255,0.05)"
                 strokeWidth={0.5}
               />
             );
@@ -35,30 +35,27 @@ export default function CircularProgress({ percentage, size = 180, strokeWidth =
           <circle
             cx={size / 2} cy={size / 2} r={radius}
             fill="none"
-            stroke="url(#circleGoldGrad)"
+            stroke="url(#circleCyberGrad)"
             strokeWidth={strokeWidth}
             strokeLinecap="round"
             strokeDasharray={circumference}
             strokeDashoffset={offset}
-            className="transition-all duration-[1500ms] ease-out"
-            style={{
-              filter: 'drop-shadow(0 0 8px rgba(212,175,55,0.3))',
-            }}
+            className="transition-all duration-[1500ms] ease-out drop-shadow-[0_0_12px_rgba(124,58,237,0.5)]"
           />
           <defs>
-            <linearGradient id="circleGoldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#92710c" />
-              <stop offset="50%" stopColor="#d4af37" />
-              <stop offset="100%" stopColor="#f5d76e" />
+            <linearGradient id="circleCyberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#7C3AED" />
+              <stop offset="50%" stopColor="#3B82F6" />
+              <stop offset="100%" stopColor="#22D3EE" />
             </linearGradient>
           </defs>
         </svg>
         {/* Center text */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <span className="text-4xl font-bold font-display gold-text tracking-wider">
+          <span className="text-4xl font-bold font-display neon-text tracking-wider">
             {percentage}%
           </span>
-          {label && <span className="text-[11px] text-silver-600 mt-1 tracking-widest uppercase">{label}</span>}
+          {label && <span className="text-[11px] text-neon-cyan/50 mt-1 tracking-widest uppercase font-mono">{label}</span>}
         </div>
       </div>
     </div>

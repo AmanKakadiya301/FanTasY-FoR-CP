@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth, isFirebaseConfigured } from './firebase.js';
+import { motion, AnimatePresence } from 'framer-motion';
 
 import { useFantasyData } from './hooks/useFantasyData.js';
 import { useProgress } from './hooks/useProgress.js';
@@ -9,8 +10,11 @@ import Sidebar from './components/Sidebar.jsx';
 import Header from './components/Header.jsx';
 import Roadmap from './components/Roadmap.jsx';
 import NoteModal from './components/NoteModal.jsx';
-import Login from './components/Login.jsx';
-import GoldenParticles from './components/GoldenParticles.jsx';
+import Login from './components/login/index.jsx';
+import NeonParticles from './components/NeonParticles.jsx';
+import NeonGlowBackground from './components/NeonGlowBackground.jsx';
+import LogoImg from './assets/branding/logo.png';
+import FantasyTextImg from './assets/branding/fantasy-text.png';
 
 export default function App() {
   const { data, loading, error, totalProblems } = useFantasyData();
@@ -27,7 +31,11 @@ export default function App() {
   // Listen to Auth Changes
   useEffect(() => {
     if (!isFirebaseConfigured) {
-      setUser({ uid: 'local_guest', email: 'guest@localhost', displayName: 'Local Admin' });
+      if (sessionStorage.getItem('localLoggedOut') === 'true') {
+        setUser(null);
+      } else {
+        setUser({ uid: 'local_guest', email: 'guest@localhost', displayName: 'Local Admin' });
+      }
       setAuthLoading(false);
       return;
     }
@@ -54,36 +62,46 @@ export default function App() {
 
   if (authLoading || loading || (user && loadingDb)) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-obsidian">
-        <div className="text-center animate-fade-in mirror-effect p-12 glass-card rounded-2xl border border-white/[0.05]">
-          <div className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6" style={{ background: 'linear-gradient(135deg, #b8941f, #d4af37)', boxShadow: '0 8px 30px rgba(212,175,55,0.2)' }}>
-            <span className="text-3xl sparkle-icon">✨</span>
-          </div>
-          <h1 className="font-display text-2xl font-bold tracking-[0.4em] gold-text mb-3">
-            FANTASY
-          </h1>
-          <p className="text-silver-600 text-[10px] tracking-[0.3em] uppercase opacity-80">Loading manuscript...</p>
-          <div className="mt-8 w-40 h-[2px] mx-auto rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.03)' }}>
-            <div className="h-full rounded-full animate-shimmer" style={{ background: 'linear-gradient(90deg, transparent, #d4af37, transparent)', backgroundSize: '200% 100%' }} />
-          </div>
-        </div>
+      <div className="min-h-screen flex items-center justify-center bg-obsidian relative overflow-hidden text-white">
+        <NeonGlowBackground />
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          className="text-center z-10 flex flex-col items-center justify-center"
+        >
+          <motion.img 
+            src={LogoImg} 
+            alt="FanTasY" 
+            className="w-16 h-16 mb-4 drop-shadow-[0_0_20px_rgba(124,58,237,0.5)]"
+            style={{ filter: 'brightness(1.2)' }}
+            animate={{ opacity: [0.6, 1, 0.6] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          />
+          <img 
+            src={FantasyTextImg} 
+            alt="FanTasY FoR CP" 
+            className="h-6 mb-4 opacity-80 drop-shadow-[0_0_10px_rgba(124,58,237,0.3)]"
+          />
+          <p className="text-neon-cyan text-[10px] tracking-widest uppercase opacity-60 animate-pulse">Initializing Cybernetics...</p>
+        </motion.div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-obsidian">
-        <div className="text-center glass-card mirror-effect rounded-2xl p-10 max-w-sm animate-fade-in">
-          <div className="text-4xl mb-4 opacity-40 text-silver-600">◇</div>
-          <h2 className="font-display text-lg font-bold text-white tracking-wider mb-2">Quest Failed</h2>
-          <p className="text-silver-500 text-sm mb-6">{error}</p>
+      <div className="min-h-screen flex items-center justify-center bg-obsidian text-white relative">
+        <NeonGlowBackground />
+        <div className="text-center glass rounded-2xl p-10 max-w-sm animate-fade-in z-10 border border-red-500/20">
+          <div className="text-4xl mb-4 text-neon-pink opacity-80">⚠</div>
+          <h2 className="font-display text-lg font-bold text-white tracking-widest mb-2">Systems Warning</h2>
+          <p className="text-silver-400 text-sm mb-6">{error}</p>
           <button
             onClick={() => window.location.reload()}
-            className="px-6 py-2.5 rounded-xl text-xs font-semibold tracking-[0.2em] text-obsidian transition-all hover:scale-105"
-            style={{ background: 'linear-gradient(135deg, #b8941f, #d4af37)', boxShadow: '0 4px 15px rgba(212,175,55,0.3)' }}
+            className="px-6 py-2.5 rounded-xl text-xs font-bold tracking-widest text-white transition-all bg-neon-pink/20 border border-neon-pink/50 hover:bg-neon-pink hover:shadow-[0_0_15px_rgba(236,72,153,0.8)]"
           >
-            RETRY
+            REBOOT
           </button>
         </div>
       </div>
@@ -94,14 +112,10 @@ export default function App() {
     return <Login />;
   }
 
-  const handleLogout = async () => {
-    await signOut(auth);
-  };
-
   return (
-    <div className="flex min-h-screen w-full bg-obsidian text-silver-200">
-      {/* Golden particle background */}
-      <GoldenParticles />
+    <div className="flex min-h-screen w-full bg-obsidian text-silver-200 relative overflow-x-hidden selection:bg-neon-purple/30">
+      <NeonGlowBackground />
+      <NeonParticles />
 
       {/* Fixed Sidebar */}
       <Sidebar
@@ -114,40 +128,49 @@ export default function App() {
         user={user}
       />
 
-      {/* Main Content — ml-0 mobile, ml-[260px] desktop. Full remaining width, no gaps */}
-      <div className="w-full lg:pl-[260px] min-h-screen relative z-[1]">
-        <div className="h-screen overflow-y-auto custom-scrollbar scroll-smooth flex flex-col">
-          <Header
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            sidebarOpen={sidebarOpen}
-            setSidebarOpen={setSidebarOpen}
-          />
-
-          <main className="w-full flex-1 px-3 sm:px-4 lg:px-6 py-4 lg:py-6">
-            <Roadmap
-              levels={data.levels}
-              totalProblems={totalProblems}
-              solvedCount={solvedCount}
-              solved={solved}
-              bookmarks={bookmarks}
-              notes={notes}
-              streak={streak}
-              dailyGoal={dailyGoal}
-              todaySolved={todaySolved}
-              setDailyGoal={setDailyGoal}
-              levelInfo={levelInfo}
-              toggleSolved={toggleSolved}
-              toggleBookmark={toggleBookmark}
-              saveNote={saveNote}
+      {/* Main Content */}
+      <AnimatePresence mode="wait">
+        <motion.div 
+          key="main-app"
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -20 }}
+          transition={{ duration: 0.4 }}
+          className="w-full lg:pl-[260px] min-h-screen relative z-[1]"
+        >
+          <div className="h-screen overflow-y-auto custom-scrollbar scroll-smooth flex flex-col">
+            <Header
               searchQuery={searchQuery}
-              openNoteModal={(key) => setNoteModal({ open: true, key })}
-              activeTopic={activeTopic}
-              setActiveTopic={setActiveTopic}
+              setSearchQuery={setSearchQuery}
+              sidebarOpen={sidebarOpen}
+              setSidebarOpen={setSidebarOpen}
             />
-          </main>
-        </div>
-      </div>
+
+            <main className="w-full flex-1 px-3 sm:px-4 lg:px-6 py-4 lg:py-6">
+              <Roadmap
+                levels={data.levels}
+                totalProblems={totalProblems}
+                solvedCount={solvedCount}
+                solved={solved}
+                bookmarks={bookmarks}
+                notes={notes}
+                streak={streak}
+                dailyGoal={dailyGoal}
+                todaySolved={todaySolved}
+                setDailyGoal={setDailyGoal}
+                levelInfo={levelInfo}
+                toggleSolved={toggleSolved}
+                toggleBookmark={toggleBookmark}
+                saveNote={saveNote}
+                searchQuery={searchQuery}
+                openNoteModal={(key) => setNoteModal({ open: true, key })}
+                activeTopic={activeTopic}
+                setActiveTopic={setActiveTopic}
+              />
+            </main>
+          </div>
+        </motion.div>
+      </AnimatePresence>
 
       <NoteModal
         isOpen={noteModal.open}

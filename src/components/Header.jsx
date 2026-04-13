@@ -42,7 +42,7 @@ export default function Header({
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
           placeholder="Search patterns or problems..."
-          className="w-full pl-9 pr-4 py-2 bg-white/[0.02] border border-white/[0.08] rounded-xl text-sm text-silver-200 placeholder-silver-700 focus:outline-none focus:border-gold-500/40 focus:bg-white/[0.04] transition-all duration-300 font-body tracking-wide"
+          className="w-full pl-9 pr-4 py-2 bg-white/[0.02] border border-white/[0.08] rounded-xl text-sm text-silver-200 placeholder-silver-700 focus:outline-none focus:border-neon-cyan focus:shadow-[0_0_15px_rgba(34,211,238,0.2)] focus:bg-white/[0.04] transition-all duration-300 font-body tracking-wide"
           id="search-input"
         />
         {searchQuery && (
