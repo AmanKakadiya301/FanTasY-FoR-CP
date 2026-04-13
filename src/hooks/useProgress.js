@@ -194,7 +194,7 @@ export function useProgress(user) {
     // Update solved map
     const newSolved = { ...solved };
     if (newSolvedValue) {
-      newSolved[key] = new Date().toISOString();
+      newSolved[key] = true;
     } else {
       delete newSolved[key];
     }

@@ -1,43 +1,24 @@
 const XP_VALUES = {
-  easy: 10,
-  medium: 25,
-  hard: 50,
+  easy: 5,
+  medium: 10,
+  hard: 20,
 };
 
 const LEVELS = [
   { level: 1, title: 'Beginner', minXP: 0, icon: '🌱' },
-  { level: 2, title: 'Explorer', minXP: 100, icon: '🗺️' },
-  { level: 3, title: 'Knight', minXP: 300, icon: '⚔️' },
-  { level: 4, title: 'Wizard', minXP: 700, icon: '🔮' },
-  { level: 5, title: 'Master', minXP: 1500, icon: '👑' },
+  { level: 2, title: 'Explorer', minXP: 50, icon: '🗺️' },
+  { level: 3, title: 'Knight', minXP: 150, icon: '⚔️' },
+  { level: 4, title: 'Wizard', minXP: 300, icon: '🔮' },
+  { level: 5, title: 'Master', minXP: 500, icon: '👑' },
 ];
-
-export function getTier(xp) {
-  if (xp >= 1500) return "Diamond";
-  if (xp >= 800) return "Platinum";
-  if (xp >= 400) return "Gold";
-  if (xp >= 150) return "Silver";
-  return "Bronze";
-}
-
-export function getNextTierXp(xp) {
-  if (xp < 150) return 150;
-  if (xp < 400) return 400;
-  if (xp < 800) return 800;
-  if (xp < 1500) return 1500;
-  return 2000;
-}
 
 export function getXPForDifficulty(difficulty) {
   return XP_VALUES[difficulty] || XP_VALUES.medium;
 }
 
-export function calculateTotalXP(solvedProblems, allLevels, streak = 0) {
+export function calculateTotalXP(solvedProblems, allLevels) {
   let totalXP = 0;
-  let solvedCount = 0;
-  
   if (!allLevels) return totalXP;
-
   for (const level of allLevels) {
     for (const week of level.weeks) {
       for (const topic of week.topics) {
@@ -45,21 +26,11 @@ export function calculateTotalXP(solvedProblems, allLevels, streak = 0) {
         for (const problem of topic.problems) {
           if (solvedProblems[problem.id]) {
             totalXP += getXPForDifficulty(problem.difficulty);
-            solvedCount++;
           }
         }
       }
     }
   }
-
-  // Streak Bonus: +5 XP per day streak
-  totalXP += (streak * 5);
-
-  // Milestone Bonuses
-  if (solvedCount >= 50) totalXP += 200;
-  else if (solvedCount >= 25) totalXP += 100;
-  else if (solvedCount >= 10) totalXP += 50;
-
   return totalXP;
 }
 

@@ -2,29 +2,7 @@ import { useEffect, useState } from 'react';
 import { signOut } from 'firebase/auth';
 import { auth } from '../firebase.js';
 
-function NavButton({ icon, label, active, onClick }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-300 group
-        ${active 
-          ? 'bg-white/[0.05] text-white shadow-[inset_0_0_15px_rgba(34,211,238,0.1)] border border-white/5' 
-          : 'text-silver-400 hover:text-white hover:bg-white/[0.02] hover:translate-x-1'}`}
-    >
-      <span className={`text-base flex-shrink-0 w-6 text-center transition-transform duration-300 ${active ? 'scale-110 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]' : 'grayscale group-hover:grayscale-0'}`}>
-        {icon}
-      </span>
-      <span className={`text-[13px] font-sub font-bold tracking-wide ${active ? 'text-white' : 'text-silver-400 font-medium'}`}>
-        {label}
-      </span>
-      {active && (
-        <div className="ml-auto w-1 h-4 rounded-full bg-neon-cyan shadow-[0_0_8px_#22D3EE]" />
-      )}
-    </button>
-  );
-}
-
-export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, activeTopic, setActiveTopic, user, currentView, setView }) {
+export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, activeTopic, setActiveTopic, user }) {
   const [expandedLevels, setExpandedLevels] = useState({});
 
   useEffect(() => {
@@ -111,51 +89,14 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
           </div>
         </div>
 
-        <nav className="flex-1 flex flex-col py-4 px-3 space-y-1 overflow-y-auto custom-scrollbar">
-          {/* Primary Navigation */}
-          <NavButton 
-            active={currentView === 'home'} 
-            onClick={() => { setView('home'); if (window.innerWidth < 1024) setSidebarOpen(false); }}
-            icon="🏠"
-            label="Home Hub"
-          />
-          <NavButton 
-            active={currentView === 'roadmap'} 
-            onClick={() => { setView('roadmap'); if (window.innerWidth < 1024) setSidebarOpen(false); }}
-            icon="🗺"
-            label="Problem Roadmap"
-          />
-          <NavButton 
-            active={currentView === 'analytics'} 
-            onClick={() => { setView('analytics'); if (window.innerWidth < 1024) setSidebarOpen(false); }}
-            icon="📊"
-            label="Analytics Cockpit"
-          />
-          <NavButton 
-            active={currentView === 'missions'} 
-            onClick={() => { setView('missions'); if (window.innerWidth < 1024) setSidebarOpen(false); }}
-            icon="🎯"
-            label="Daily Missions"
-          />
-          <NavButton 
-            active={currentView === 'achievements'} 
-            onClick={() => { setView('achievements'); if (window.innerWidth < 1024) setSidebarOpen(false); }}
-            icon="🏆"
-            label="Neural Trophies"
-          />
-          <NavButton 
-            active={currentView === 'profile'} 
-            onClick={() => { setView('profile'); if (window.innerWidth < 1024) setSidebarOpen(false); }}
-            icon="👤"
-            label="User Profile"
-          />
-
-          <div className="h-px bg-white/5 my-6 mx-3" />
-
-          {/* Roadmap Sections */}
-          <div className="px-3 mb-2">
-             <span className="text-[9px] font-mono font-black text-gray-500 uppercase tracking-[0.3em]">Sector Mapping</span>
-          </div>
+        <nav className="flex-1 flex flex-col py-4 px-3 space-y-0.5 overflow-y-auto custom-scrollbar">
+          <button
+            onClick={() => scrollToSection('dashboard-top')}
+            className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200 text-silver-400 hover:text-white hover:bg-white/[0.03] hover:translate-x-1 mb-4"
+          >
+            <span className="text-sm flex-shrink-0 w-5 text-center font-mono opacity-80 group-hover:text-neon-cyan">⊞</span>
+            <span className="text-[13px] font-sub font-medium tracking-wide">Progress Summary</span>
+          </button>
 
           {levels && levels.map((level) => {
             const isExpanded = expandedLevels[level.level] !== false; // Default expanded
