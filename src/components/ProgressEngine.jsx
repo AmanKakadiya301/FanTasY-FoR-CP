@@ -3,20 +3,10 @@ import { motion } from 'framer-motion';
 import { getRankTier } from '../utils/xp.js';
 
 import ProgressBar from './ProgressEngine/ProgressBar.jsx';
-import StatCard from './StatCard.jsx'; // Note: I saved it in components/ProgressEngine/ earlier? 
-// Wait, I saved them in d:\Money\FanTasY FoR CP\src\components\ProgressEngine\
-// Let me double check paths in my previous write calls.
-// 1. ProgressBar: src/components/ProgressEngine/ProgressBar.jsx
-// 2. StatCard: src/components/ProgressEngine/StatCard.jsx
-// 3. TierBadge: src/components/ProgressEngine/TierBadge.jsx
-// 4. GoalCard: src/components/ProgressEngine/GoalCard.jsx
-// 5. MomentumIndicator: src/components/ProgressEngine/MomentumIndicator.jsx
-
-import ProgressBarComp from './ProgressEngine/ProgressBar.jsx';
-import StatCardComp from './ProgressEngine/StatCard.jsx';
-import TierBadgeComp from './ProgressEngine/TierBadge.jsx';
-import GoalCardComp from './ProgressEngine/GoalCard.jsx';
-import MomentumIndicatorComp from './ProgressEngine/MomentumIndicator.jsx';
+import StatCard from './ProgressEngine/StatCard.jsx';
+import TierBadge from './ProgressEngine/TierBadge.jsx';
+import GoalCard from './ProgressEngine/GoalCard.jsx';
+import MomentumIndicator from './ProgressEngine/MomentumIndicator.jsx';
 
 export default function ProgressEngine({ solved, levels, streak, todaySolved, dailyGoal, levelInfo }) {
   const solvedCount = Object.keys(solved).length;
@@ -103,7 +93,7 @@ export default function ProgressEngine({ solved, levels, streak, todaySolved, da
               </motion.span>
               <span className="text-xs tracking-[0.3em] font-mono uppercase text-neon-cyan/60 animate-pulse">Sync Active</span>
             </div>
-            <ProgressBarComp 
+            <ProgressBar 
               easyCount={diffStats.easy.s} easyTotal={diffStats.easy.t}
               mediumCount={diffStats.medium.s} mediumTotal={diffStats.medium.t}
               hardCount={diffStats.hard.s} hardTotal={diffStats.hard.t}
@@ -114,35 +104,35 @@ export default function ProgressEngine({ solved, levels, streak, todaySolved, da
           </div>
 
           <div className="flex flex-wrap items-center gap-4">
-            <TierBadgeComp tier={rankTier} />
-            <MomentumIndicatorComp momentum={momentum} />
+            <TierBadge tier={rankTier} />
+            <MomentumIndicator momentum={momentum} />
           </div>
         </div>
 
         {/* Info Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <StatCardComp 
+          <StatCard 
             label="Neural XP" 
             value={levelInfo?.xp || 0} 
             subValue={`Title: ${levelInfo?.title}`} 
             icon="⚡" 
             color="purple" 
           />
-          <StatCardComp 
+          <StatCard 
             label="Day Streak" 
             value={streak.count || 0} 
             subValue={`Goal: ${todaySolved}/${dailyGoal} today`} 
             icon="🔥" 
             color="pink" 
           />
-          <StatCardComp 
+          <StatCard 
             label="Total Solved" 
             value={solvedCount} 
             subValue={`Remaining: ${totalProblems - solvedCount}`} 
             icon="🎯" 
             color="cyan" 
           />
-          <GoalCardComp 
+          <GoalCard 
             goal={goalInfo.title} 
             progress={goalInfo.current} 
             total={goalInfo.target} 
