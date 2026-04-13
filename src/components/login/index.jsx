@@ -166,9 +166,9 @@ export default function Login() {
             className="text-xs font-mono text-neon-cyan/70 hover:text-white group transition-all duration-300"
           >
             {isSignUp ? (
-              <span><span className="text-neon-pink group-hover:drop-shadow-[0_0_8px_rgba(236,72,153,0.8)]">&gt; ABORT SEQUENCE: </span>RETURN</span>
+              <span><span className="text-neon-pink group-hover:drop-shadow-[0_0_8px_rgba(236,72,153,0.8)]">&gt; ALREADY REGISTERED? </span>LOGIN HERE</span>
             ) : (
-              <span><span className="text-neon-cyan group-hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.8)]">&gt; INITIATE: </span>NEW USER REGISTRATION</span>
+              <span><span className="text-neon-cyan group-hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.8)]">&gt; NO ACCESS? </span>CREATE FREE ACCOUNT</span>
             )}
           </button>
         </motion.div>

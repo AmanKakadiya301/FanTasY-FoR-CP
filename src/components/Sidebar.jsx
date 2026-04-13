@@ -135,7 +135,7 @@ export default function Sidebar({ levels, solved, sidebarOpen, setSidebarOpen, a
                         >
                           <div className="flex-1 min-w-0 text-left">
                             <div className={`text-[12px] font-sub font-medium tracking-wide truncate ${pct === 100 ? 'text-neon-cyan' : ''}`}>
-                              Week {week.week}
+                              {week.title || `Week ${week.week}`}
                             </div>
                             <div className="flex items-center gap-2 mt-1">
                               <div className="flex-1 h-[2px] bg-white/[0.05] rounded-full overflow-hidden">
