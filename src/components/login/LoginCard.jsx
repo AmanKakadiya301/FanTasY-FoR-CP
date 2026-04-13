@@ -35,7 +35,7 @@ export default function LoginCard({ children }) {
           <div 
             className="relative rounded-2xl"
             style={{
-              background: 'linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.02) 100%)',
+              background: 'linear-gradient(180deg, rgba(124,58,237,0.1) 0%, rgba(34,211,238,0.05) 100%), linear-gradient(180deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.02) 100%)',
               backdropFilter: 'blur(24px)',
               WebkitBackdropFilter: 'blur(24px)',
               boxShadow: '0 0 50px rgba(124,58,237,0.15), 0 0 100px rgba(34,211,238,0.05), 0 8px 32px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.1)',

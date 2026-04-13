@@ -22,7 +22,7 @@ export default function LoginInputs({ email, setEmail, password, setPassword, is
           value={email}
           onChange={e => setEmail(e.target.value)}
           disabled={isLoading}
-          className="w-full pl-10 pr-4 py-3 rounded-xl bg-white/10 backdrop-blur-xl border border-white/20 text-white text-sm placeholder:text-white/40 transition-all duration-300 focus:outline-none focus:border-neon-cyan/70 focus:bg-white/15 focus:shadow-[0_0_20px_rgba(34,211,238,0.3)] font-mono"
+          className="w-full pl-10 pr-4 py-3 rounded-xl bg-white/10 backdrop-blur-xl border border-white/20 text-white text-sm placeholder:text-white/40 transition-all duration-300 focus:outline-none focus:border-cyan-400 focus:bg-white/15 focus:shadow-[0_0_20px_rgba(34,211,238,0.4)] font-mono"
         />
       </div>
 

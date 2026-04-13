@@ -17,20 +17,13 @@ export default function LoginHeader() {
         className="relative"
       >
         {/* Pulsing glow behind box */}
-        <motion.div 
-          className="absolute -inset-3 rounded-2xl blur-xl"
-          style={{ background: 'linear-gradient(135deg, rgba(124,58,237,0.5), rgba(34,211,238,0.4))' }}
-          animate={{ opacity: [0.3, 0.6, 0.3], scale: [1, 1.08, 1] }}
-          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-        />
+        <div className="absolute inset-0 blur-xl opacity-40 bg-gradient-to-r from-purple-500 to-cyan-400 rounded-xl animate-pulse"></div>
         
         {/* Glass box */}
         <div 
-          className="relative p-5 rounded-2xl border border-white/15"
+          className="relative p-4 rounded-xl border border-white/10 backdrop-blur-xl"
           style={{
-            background: 'rgba(255,255,255,0.06)',
-            backdropFilter: 'blur(16px)',
-            WebkitBackdropFilter: 'blur(16px)',
+            background: 'rgba(255,255,255,0.05)',
             boxShadow: '0 0 30px rgba(124,58,237,0.2), inset 0 1px 0 rgba(255,255,255,0.1)',
           }}
         >

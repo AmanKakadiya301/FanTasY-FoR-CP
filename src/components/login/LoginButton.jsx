@@ -24,7 +24,7 @@ export default function LoginButton({ isLoading, isSignUp, onEmailSubmit, onGoog
         />
         {/* Hover glow */}
         <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-          style={{ boxShadow: '0 0 30px rgba(124,58,237,0.5), 0 0 60px rgba(34,211,238,0.2)' }}
+          style={{ boxShadow: '0 0 30px rgba(124,58,237,0.5), 0 0 60px rgba(34,211,238,0.2), 0 0 80px rgba(124,58,237,0.1)' }}
         />
         {/* Sweep effect */}
         <div className="absolute w-[150%] h-full bg-white/20 skew-x-12 -left-[150%] group-hover:animate-sweep pointer-events-none" />
