@@ -14,9 +14,10 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+const isFirebaseConfigured = firebaseConfig.apiKey !== "YOUR_NEW_API_KEY";
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 const googleProvider = new GoogleAuthProvider();
 
-export { auth, db, googleProvider };
+export { auth, db, googleProvider, isFirebaseConfigured };

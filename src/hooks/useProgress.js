@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
 import { doc, getDoc, onSnapshot, setDoc } from 'firebase/firestore';
-import { db } from '../firebase.js';
+import { db, isFirebaseConfigured } from '../firebase.js';
 
 /**
  * localStorage-first progress hook with Firestore cloud sync.
@@ -100,7 +100,7 @@ export function useProgress(user) {
 
   // Try to sync to Firestore (fire-and-forget, errors are logged not thrown)
   const syncToCloud = useCallback(async (data) => {
-    if (!user) return;
+    if (!user || user.uid === 'local_guest' || !isFirebaseConfigured) return;
     try {
       const docRef = doc(db, 'users', user.uid);
       await setDoc(docRef, {
@@ -133,6 +133,14 @@ export function useProgress(user) {
 
     (async () => {
       try {
+        if (!isFirebaseConfigured || user.uid === 'local_guest') {
+          console.log('[Fantasy] Firebase bypassing Cloud fetch due to missing API keys. Using local.');
+          const local = buildState(loadLocal());
+          applyState(local);
+          if (!cancelled) setLoadingDb(false);
+          return;
+        }
+
         const docRef = doc(db, 'users', user.uid);
         const snap = await getDoc(docRef);
         

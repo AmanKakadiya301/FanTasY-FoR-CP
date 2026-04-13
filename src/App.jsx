@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
-import { auth } from './firebase.js';
+import { auth, isFirebaseConfigured } from './firebase.js';
 
 import { useFantasyData } from './hooks/useFantasyData.js';
 import { useProgress } from './hooks/useProgress.js';
@@ -26,6 +26,12 @@ export default function App() {
 
   // Listen to Auth Changes
   useEffect(() => {
+    if (!isFirebaseConfigured) {
+      setUser({ uid: 'local_guest', email: 'guest@localhost', displayName: 'Local Admin' });
+      setAuthLoading(false);
+      return;
+    }
+
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setAuthLoading(false);
