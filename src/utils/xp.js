@@ -5,11 +5,11 @@ const XP_VALUES = {
 };
 
 const LEVELS = [
-  { level: 1, title: 'Beginner', minXP: 0, icon: '🌱' },
-  { level: 2, title: 'Explorer', minXP: 50, icon: '🗺️' },
-  { level: 3, title: 'Knight', minXP: 150, icon: '⚔️' },
-  { level: 4, title: 'Wizard', minXP: 300, icon: '🔮' },
-  { level: 5, title: 'Master', minXP: 500, icon: '👑' },
+  { level: 1, title: 'Beginner', minXP: 0 },
+  { level: 2, title: 'Explorer', minXP: 50 },
+  { level: 3, title: 'Knight', minXP: 150 },
+  { level: 4, title: 'Wizard', minXP: 300 },
+  { level: 5, title: 'Master', minXP: 500 },
 ];
 
 export function getXPForDifficulty(difficulty) {

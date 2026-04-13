@@ -78,11 +78,7 @@ export default function App() {
             animate={{ opacity: [0.6, 1, 0.6] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           />
-          <img 
-            src={FantasyTextImg} 
-            alt="FanTasY FoR CP" 
-            className="h-6 mb-4 opacity-80 drop-shadow-[0_0_10px_rgba(124,58,237,0.3)]"
-          />
+
           <p className="text-neon-cyan text-[10px] tracking-widest uppercase opacity-60 animate-pulse">Initializing Cybernetics...</p>
         </motion.div>
       </div>

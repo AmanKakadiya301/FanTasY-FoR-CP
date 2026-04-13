@@ -15,6 +15,9 @@ export default {
           cyan: '#22D3EE',
           orange: '#F97316',
           gold: '#FFD700',
+          green: '#22C55E',
+          yellow: '#FACC15',
+          red: '#EF4444',
         },
         silver: {
           50: '#fafafa',

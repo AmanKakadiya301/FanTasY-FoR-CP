@@ -29,9 +29,9 @@ export default function ProblemTable({
   function getDifficultyBadge(difficulty) {
     const diff = (difficulty || 'medium').toLowerCase();
     
-    let baseColor = 'text-neon-purple border-neon-purple/30 bg-neon-purple/10 shadow-[0_0_10px_rgba(124,58,237,0.2)]';
-    if (diff === 'easy') baseColor = 'text-neon-cyan border-neon-cyan/30 bg-neon-cyan/10 shadow-[0_0_10px_rgba(34,211,238,0.2)]';
-    if (diff === 'hard') baseColor = 'text-neon-pink border-neon-pink/30 bg-neon-pink/10 shadow-[0_0_10px_rgba(236,72,153,0.2)]';
+    let baseColor = 'text-neon-yellow border-neon-yellow/30 bg-neon-yellow/10 shadow-[0_0_10px_rgba(250,204,21,0.2)]';
+    if (diff === 'easy') baseColor = 'text-neon-green border-neon-green/30 bg-neon-green/10 shadow-[0_0_10px_rgba(34,197,94,0.2)]';
+    if (diff === 'hard') baseColor = 'text-neon-red border-neon-red/30 bg-neon-red/10 shadow-[0_0_10px_rgba(239,68,68,0.2)]';
 
     return (
       <span className={`px-2 py-0.5 rounded-md border text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.15em] font-mono ${baseColor}`}>

@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import LogoImg from '../assets/branding/logo.png';
 import ProblemTable from './ProblemTable.jsx';
 import ConfettiEffect from './ConfettiEffect.jsx';
 import FilterBar from './FilterBar.jsx';
@@ -177,7 +178,7 @@ export default function Roadmap({
           <div className="flex-1 min-w-0 z-10">
             <div className="flex items-center gap-3 mb-2">
               <h2 className="font-display text-lg sm:text-xl font-bold tracking-widest neon-text">YOUR STATUS</h2>
-              <div className="text-lg animate-pulse-neon">{levelInfo?.icon}</div>
+              <img src={LogoImg} alt="Level" className="w-5 h-5 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]" />
             </div>
             <div className="flex items-baseline gap-2 mb-3">
               <span className="text-3xl sm:text-4xl font-display font-black text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">{progressPct}%</span>
@@ -185,15 +186,16 @@ export default function Roadmap({
             </div>
             
             <div className="w-full h-2.5 bg-black/60 rounded-full overflow-hidden flex border border-white/[0.1] shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]">
-              <div style={{ width: `${totalProblems > 0 ? (diffStats.easy.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-cyan shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all duration-700" />
-              <div style={{ width: `${totalProblems > 0 ? (diffStats.medium.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-purple shadow-[0_0_10px_rgba(124,58,237,0.8)] transition-all duration-700" />
-              <div style={{ width: `${totalProblems > 0 ? (diffStats.hard.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-pink shadow-[0_0_10px_rgba(236,72,153,0.8)] transition-all duration-700" />
+              <div style={{ width: `${totalProblems > 0 ? (diffStats.easy.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-green shadow-[0_0_10px_rgba(34,197,94,0.8)] transition-all duration-700" />
+              <div style={{ width: `${totalProblems > 0 ? (diffStats.medium.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-yellow shadow-[0_0_10px_rgba(250,204,21,0.8)] transition-all duration-700" />
+              <div style={{ width: `${totalProblems > 0 ? (diffStats.hard.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-red shadow-[0_0_10px_rgba(239,68,68,0.8)] transition-all duration-700" />
             </div>
             
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 mt-4 text-[11px] sm:text-xs font-mono font-bold tracking-widest">
-              <span className="text-neon-cyan">EZ {diffStats.easy.s}/{diffStats.easy.t}</span>
-              <span className="text-neon-purple">MD {diffStats.medium.s}/{diffStats.medium.t}</span>
-              <span className="text-neon-pink">HD {diffStats.hard.s}/{diffStats.hard.t}</span>
+              <span className="text-neon-green">EZ {diffStats.easy.s}/{diffStats.easy.t}</span>
+              <span className="text-neon-yellow">MD {diffStats.medium.s}/{diffStats.medium.t}</span>
+              <span className="text-neon-red">HD {diffStats.hard.s}/{diffStats.hard.t}</span>
+              <span className="text-white opacity-40 ml-auto lowercase tracking-tighter">Total {solvedCount}/{totalProblems}</span>
             </div>
           </div>
 
