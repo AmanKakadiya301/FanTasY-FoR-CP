@@ -29,7 +29,7 @@ export default function ProblemTable({
   function getDifficultyBadge(difficulty) {
     const diff = (difficulty || 'medium').toLowerCase();
     
-    let baseColor = 'text-neon-purple border-neon-purple/30 bg-neon-purple/10 shadow-[0_0_10px_rgba(124,58,237,0.2)]';
+    let baseColor = 'text-yellow-400 border-yellow-400/30 bg-yellow-400/10 shadow-[0_0_10px_rgba(250,204,21,0.2)]';
     if (diff === 'easy') baseColor = 'text-neon-cyan border-neon-cyan/30 bg-neon-cyan/10 shadow-[0_0_10px_rgba(34,211,238,0.2)]';
     if (diff === 'hard') baseColor = 'text-neon-pink border-neon-pink/30 bg-neon-pink/10 shadow-[0_0_10px_rgba(236,72,153,0.2)]';
 

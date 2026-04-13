@@ -1,7 +1,7 @@
-import { useState, useMemo } from 'react';
 import ProblemTable from './ProblemTable.jsx';
 import ConfettiEffect from './ConfettiEffect.jsx';
 import FilterBar from './FilterBar.jsx';
+import ProgressEngine from './ProgressEngine.jsx';
 
 function TopicAccordion({
   topic,
@@ -148,75 +148,16 @@ export default function Roadmap({
   setActiveTopic
 }) {
 
-  const progressPct = totalProblems > 0 ? Math.round((solvedCount / totalProblems) * 100) : 0;
-
-  const diffStats = { easy: {s:0, t:0}, medium: {s:0, t:0}, hard: {s:0, t:0} };
-  if (levels) {
-    levels.forEach(level => {
-      level.weeks.forEach(week => {
-        week.topics.forEach(topic => {
-          if(!topic.problems) return;
-          topic.problems.forEach(prob => {
-            const diff = (prob.difficulty || 'medium').toLowerCase();
-            if (diffStats[diff]) {
-              diffStats[diff].t++;
-              if (solved[prob.id]) diffStats[diff].s++;
-            }
-          });
-        });
-      });
-    });
-  }
-
   return (
     <div className="w-full">
-      <section id="dashboard-top" className="mb-6 p-4 sm:p-5 lg:p-6 glass-card rounded-2xl relative overflow-hidden border border-white/[0.05]">
-        <div className="absolute top-[-50%] right-[-10%] w-[300px] h-[300px] bg-neon-purple/20 rounded-full blur-[100px] pointer-events-none" />
-
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-5">
-          <div className="flex-1 min-w-0 z-10">
-            <div className="flex items-center gap-3 mb-2">
-              <h2 className="font-display text-lg sm:text-xl font-bold tracking-widest neon-text">SYSTEM STATUS</h2>
-              <div className="text-lg animate-pulse-neon">{levelInfo?.icon}</div>
-            </div>
-            <div className="flex items-baseline gap-2 mb-3">
-              <span className="text-3xl sm:text-4xl font-display font-black text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">{progressPct}%</span>
-              <span className="text-[10px] sm:text-xs tracking-[0.2em] font-mono uppercase text-neon-cyan/70">Sync Complete</span>
-            </div>
-            
-            <div className="w-full h-2.5 bg-black/60 rounded-full overflow-hidden flex border border-white/[0.1] shadow-[inset_0_0_10px_rgba(0,0,0,0.5)]">
-              <div style={{ width: `${totalProblems > 0 ? (diffStats.easy.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-cyan shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all duration-700" />
-              <div style={{ width: `${totalProblems > 0 ? (diffStats.medium.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-purple shadow-[0_0_10px_rgba(124,58,237,0.8)] transition-all duration-700" />
-              <div style={{ width: `${totalProblems > 0 ? (diffStats.hard.s/totalProblems)*100 : 0}%` }} className="h-full bg-neon-pink shadow-[0_0_10px_rgba(236,72,153,0.8)] transition-all duration-700" />
-            </div>
-            
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4 mt-4 text-[11px] sm:text-xs font-mono font-bold tracking-widest">
-              <span className="text-neon-cyan">EZ {diffStats.easy.s}/{diffStats.easy.t}</span>
-              <span className="text-neon-purple">MD {diffStats.medium.s}/{diffStats.medium.t}</span>
-              <span className="text-neon-pink">HD {diffStats.hard.s}/{diffStats.hard.t}</span>
-            </div>
-          </div>
-
-          <div className="flex gap-3 z-10 flex-shrink-0">
-            <div className="bg-black/50 border border-white/[0.1] rounded-xl p-3 sm:p-4 flex flex-col items-center justify-center min-w-[100px] sm:min-w-[120px] shadow-[inset_0_0_20px_rgba(124,58,237,0.1)] hover:border-neon-purple/50 transition-colors">
-              <span className="text-xl sm:text-2xl font-bold font-mono text-white drop-shadow-[0_0_8px_rgba(124,58,237,0.8)]">{levelInfo?.xp || 0}</span>
-              <span className="text-[9px] uppercase tracking-[0.2em] font-mono text-neon-purple mt-2">Total XP</span>
-              <span className="text-[10px] text-silver-300 mt-1 font-display tracking-widest text-center">{levelInfo?.title}</span>
-            </div>
-            
-            <div className="bg-black/50 border border-white/[0.1] rounded-xl p-3 sm:p-4 flex flex-col items-center justify-center min-w-[100px] sm:min-w-[120px] shadow-[inset_0_0_20px_rgba(236,72,153,0.1)] hover:border-neon-pink/50 transition-colors">
-              <div className="flex gap-2 items-center">
-                <span className={`text-base sm:text-lg ${streak.count > 0 ? 'animate-pulse' : ''}`}>{streak.count > 0 ? '🔥' : '❄️'}</span>
-                <span className="text-xl sm:text-2xl font-bold font-mono text-white drop-shadow-[0_0_8px_rgba(236,72,153,0.8)]">{streak.count}</span>
-              </div>
-              <span className="text-[9px] uppercase tracking-[0.2em] font-mono text-neon-pink mt-2">Day Streak</span>
-              <div className="text-[10px] mt-1 flex items-center gap-1 font-mono text-silver-400">
-                Today: <span className={todaySolved >= dailyGoal ? "text-neon-pink font-bold" : "text-white"}>{todaySolved}/{dailyGoal}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ProgressEngine 
+        solved={solved}
+        levels={levels}
+        streak={streak}
+        todaySolved={todaySolved}
+        dailyGoal={dailyGoal}
+        levelInfo={levelInfo}
+      />
 
       <section className="w-full pb-20 space-y-8">
         {levels && levels.map(level => (
