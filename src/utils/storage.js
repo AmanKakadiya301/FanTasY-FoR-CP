@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'fantasy_dsa_progress';
+const STORAGE_KEY = 'fantasy_cp_progress';
 
 function getStorage() {
   try {
