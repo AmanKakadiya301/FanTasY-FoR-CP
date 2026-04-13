@@ -9,6 +9,11 @@ import { calculateTotalXP, getLevelInfo } from './utils/xp.js';
 import Sidebar from './components/Sidebar.jsx';
 import Header from './components/Header.jsx';
 import Roadmap from './components/Roadmap.jsx';
+import Home from './components/Home.jsx';
+import ProgressDashboard from './components/ProgressDashboard.jsx';
+import AchievementsPage from './AchievementsPage.jsx';
+import MissionsPage from './MissionsPage.jsx';
+import UserProfile from './UserProfile.jsx';
 import NoteModal from './components/NoteModal.jsx';
 import Login from './components/login/index.jsx';
 import NeonParticles from './components/NeonParticles.jsx';
@@ -23,6 +28,7 @@ export default function App() {
   const [noteModal, setNoteModal] = useState({ open: false, key: '' });
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeTopic, setActiveTopic] = useState(null);
+  const [view, setView] = useState('home'); // home | roadmap | analytics | missions | achievements | profile
 
   // Authentication State
   const [user, setUser] = useState(null);
@@ -126,6 +132,8 @@ export default function App() {
         activeTopic={activeTopic}
         setActiveTopic={setActiveTopic}
         user={user}
+        currentView={view}
+        setView={setView}
       />
 
       {/* Main Content */}
@@ -147,26 +155,85 @@ export default function App() {
             />
 
             <main className="w-full flex-1 px-3 sm:px-4 lg:px-6 py-4 lg:py-6">
-              <Roadmap
-                levels={data.levels}
-                totalProblems={totalProblems}
-                solvedCount={solvedCount}
-                solved={solved}
-                bookmarks={bookmarks}
-                notes={notes}
-                streak={streak}
-                dailyGoal={dailyGoal}
-                todaySolved={todaySolved}
-                setDailyGoal={setDailyGoal}
-                levelInfo={levelInfo}
-                toggleSolved={toggleSolved}
-                toggleBookmark={toggleBookmark}
-                saveNote={saveNote}
-                searchQuery={searchQuery}
-                openNoteModal={(key) => setNoteModal({ open: true, key })}
-                activeTopic={activeTopic}
-                setActiveTopic={setActiveTopic}
-              />
+              <AnimatePresence mode="wait">
+                {view === 'home' && (
+                  <Home 
+                    key="view-home"
+                    solved={solved}
+                    levels={data.levels}
+                    streak={streak}
+                    todaySolved={todaySolved}
+                    dailyGoal={dailyGoal}
+                    levelInfo={levelInfo}
+                  />
+                )}
+                {view === 'roadmap' && (
+                  <Roadmap
+                    key="view-roadmap"
+                    levels={data.levels}
+                    totalProblems={totalProblems}
+                    solvedCount={solvedCount}
+                    solved={solved}
+                    bookmarks={bookmarks}
+                    notes={notes}
+                    streak={streak}
+                    dailyGoal={dailyGoal}
+                    todaySolved={todaySolved}
+                    setDailyGoal={setDailyGoal}
+                    levelInfo={levelInfo}
+                    toggleSolved={toggleSolved}
+                    toggleBookmark={toggleBookmark}
+                    saveNote={saveNote}
+                    searchQuery={searchQuery}
+                    openNoteModal={(key) => setNoteModal({ open: true, key })}
+                    activeTopic={activeTopic}
+                    setActiveTopic={setActiveTopic}
+                  />
+                )}
+                {view === 'analytics' && (
+                  <ProgressDashboard
+                    key="view-analytics"
+                    solved={solved}
+                    levels={data.levels}
+                    streak={streak}
+                    todaySolved={todaySolved}
+                    dailyGoal={dailyGoal}
+                    levelInfo={levelInfo}
+                  />
+                )}
+                {view === 'achievements' && (
+                  <AchievementsPage
+                    key="view-achievements"
+                    solved={solved}
+                    levels={data.levels}
+                    streak={streak}
+                  />
+                )}
+                {view === 'missions' && (
+                  <MissionsPage
+                    key="view-missions"
+                    todaySolved={todaySolved}
+                    dailyGoal={dailyGoal}
+                    diffStatsToday={{ 
+                      easy: Object.entries(solved).filter(([id, ts]) => typeof ts === 'string' && ts.split('T')[0] === new Date().toISOString().split('T')[0]).length, // Rough calculation for today
+                      medium: 0, 
+                      hard: 0 
+                    }}
+                  />
+                )}
+                {view === 'profile' && (
+                  <UserProfile
+                    key="view-profile"
+                    user={user}
+                    levelInfo={levelInfo}
+                    solvedCount={solvedCount}
+                    streak={streak}
+                    solved={solved}
+                    levels={data.levels}
+                    heatmapData={[]} // Pass from analytics
+                  />
+                )}
+              </AnimatePresence>
             </main>
           </div>
         </motion.div>
