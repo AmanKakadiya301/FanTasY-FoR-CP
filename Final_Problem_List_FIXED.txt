@@ -1,0 +1,497 @@
+================================================================================
+                     COMPETITIVE PROGRAMMING PROBLEM LIST
+                         (Problem Name → Link Mapping)
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                   LEVEL - 1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+════════════════════════════════════════
+  WEEK 1 & 2 — C++ Basics 1
+════════════════════════════════════════
+
+Task 1  | Multiples               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
+Task 2  | Sort Numbers               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T
+Task 3  | Digits Summation               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F
+Task 4  | Range Sum               | https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/D
+Task 5  | Watermelon                         | https://codeforces.com/problemset/problem/4/A
+Task 6  | Summation from 1 to N               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G
+Task 7  | Welcome for you with Conditions | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I
+Task 8  | K. Max and Min      | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K
+Task 9  | The Brothers              | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L
+Task 10 | Char               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N
+Task 11 | The last 2 digits               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y
+Task 12 | Mathematical Expression              | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W
+Task 13 | Comparison    | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V
+Task 14 | Float or int               | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U
+Task 15 |  Hard Compare              | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z
+
+════════════════════════════════════════
+  WEEK 2 — C++ Basics 2 + Online Judge
+════════════════════════════════════════
+
+Task 1  | Divisors              | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K
+Task 2  | One Prime               | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H
+Task 3  | Even, Odd, Positive and Negative               | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C
+Task 4  | Three Numbers               | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
+Task 5  | Primes from 1 to n             | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J
+Task 6  | Fibonacci              | https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/O
+Task 7  | Theatre Square                     | https://codeforces.com/problemset/problem/1/A
+Task 8  | Team                               | https://codeforces.com/problemset/problem/630/A
+Task 9  | Even Hate Odd               | https://codeforces.com/group/MWSDmqGsZm/contest/329103/problem/G
+Task 10 | When I hit you upon the jack       | https://atcoder.jp/contests/abc258/tasks/abc258_a
+Task 11 | Keyboard                           | https://codeforces.com/problemset/problem/271/A
+Task 12 | Vasya and Books                    | https://codeforces.com/problemset/problem/1030/A
+Task 13 | Full House                         | https://atcoder.jp/contests/abc263/tasks/abc263_a
+
+════════════════════════════════════════
+  WEEK 3 — Time and Space Complexity
+════════════════════════════════════════
+
+Task 1  | Strange Beauty                     | https://codeforces.com/problemset/problem/1535/A
+Task 2  | System of Equations                | https://codeforces.com/problemset/problem/214/A
+Task 3  | Cows and Primitive Roots           | https://codeforces.com/problemset/problem/320/A
+Task 4  | Summing the N Series               | https://www.hackerrank.com/challenges/summing-the-n-series/problem
+Task 5  | Number Groups                      | https://www.hackerrank.com/challenges/number-groups/problem
+Task 6  | Holiday Of Equality                | https://codeforces.com/problemset/problem/758/A
+Task 7  | FizzBuzz                           | https://codeforces.com/problemset/problem/1374/A
+Task 8  | Anti-knapsack                      | https://codeforces.com/problemset/problem/1512/A
+Task 9  | George and Accommodation           | https://codeforces.com/problemset/problem/199/A
+Task 10 | Jump Game                          | https://codeforces.com/problemset/problem/1269/A
+Task 11 | Split It!                          | https://codeforces.com/problemset/problem/1496/A
+Task 12 | Favorite Sequence                  | https://codeforces.com/problemset/problem/1428/C
+Task 13 | Consecutive Sum Riddle             | https://codeforces.com/problemset/problem/1633/C
+Task 14 | Binary Removals                    | https://codeforces.com/problemset/problem/1499/B
+
+════════════════════════════════════════
+  WEEK 4 — Problem Solving (General)
+════════════════════════════════════════
+
+Task 1  | Missing Number                     | https://cses.fi/problemset/task/1083
+Task 2  | Number Spiral                      | https://cses.fi/problemset/task/1094
+Task 3  | Playlist                           | https://cses.fi/problemset/task/1713
+Task 4  | Find the Distance Value Between Two Arrays | https://leetcode.com/problems/find-the-distance-value-between-two-arrays/
+Task 5  | Powered Addition                   | https://codeforces.com/problemset/problem/1335/C
+Task 6  | Maximum Product                    | https://codeforces.com/problemset/problem/1374/B
+Task 7  | Number of Pairs                    | https://cses.fi/problemset/task/1071
+Task 8  | Sum of Two Values                  | https://cses.fi/problemset/task/1755
+Task 9  | Restore the Array                  | https://codeforces.com/problemset/problem/1343/C
+Task 10 | Yet Another Covid Problem          | https://codeforces.com/problemset/problem/1327/A
+
+════════════════════════════════════════
+  WEEK 5 — Number Theory
+════════════════════════════════════════
+
+Task 1  | Gregor and Cryptography | https://codeforces.com/contest/1549/problem/A
+Task 2  | Strange Beauty                     | https://codeforces.com/problemset/problem/1475/A
+Task 3  | Almost All Divisors                | https://codeforces.com/problemset/problem/1165/D
+Task 4  | Hexadecimal's theorem              | https://codeforces.com/problemset/problem/17/A
+Task 5  | Sherlock and Divisors              | https://www.hackerrank.com/challenges/sherlock-and-divisors/problem
+Task 6  | Strange Beauty (bis)               | https://codeforces.com/problemset/problem/1474/B
+Task 7  | Segment Covering                   | https://codeforces.com/problemset/problem/1143/B
+Task 8  | Two Subsets                        | https://codeforces.com/problemset/problem/797/A
+Task 9  | Alyona and Numbers                 | https://codeforces.com/problemset/problem/682/A
+Task 10 | Nastia and Nearly Good Numbers     | https://codeforces.com/problemset/problem/1521/A
+Task 11 | STRNO (CodeChef)                   | https://www.codechef.com/problems/STRNO
+Task 12 | Twice                              | https://codeforces.com/problemset/problem/1285/C
+Task 13 | Divisibility by Eight              | https://codeforces.com/problemset/problem/550/C
+
+════════════════════════════════════════
+  WEEK 6 — Searching and Sorting
+════════════════════════════════════════
+
+Task 1  | Sum of All Odd Length Subarrays   | https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+Task 2  | Find Pivot Index                   | https://leetcode.com/problems/find-pivot-index/
+Task 3  | Sqrt(x)                            | https://leetcode.com/problems/sqrtx/
+Task 4  | Search Insert Position             | https://leetcode.com/problems/search-insert-position/
+Task 5  | Product of Array Except Self       | https://leetcode.com/problems/product-of-array-except-self/
+Task 6  | Peak Index in a Mountain Array     | https://leetcode.com/problems/peak-index-in-a-mountain-array/
+Task 7  | Missing Number                     | https://leetcode.com/problems/missing-number/
+Task 8  | Make Array Zero by Subtracting Equal Amounts | https://codeforces.com/problemset/problem/1675/B
+Task 9  | Count characters              | https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/B
+Task 10 |Sort the array              | https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C
+Task 11 | The first missing number               | https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/D
+
+════════════════════════════════════════
+  WEEK 7 — C++ STL
+════════════════════════════════════════
+
+Task 1  | SAVKONO (CodeChef)                 | https://www.codechef.com/LRNDSA03/problems/SAVKONO
+Task 2  | CVOTE (CodeChef)                   | https://www.codechef.com/LRNDSA03/problems/CVOTE
+Task 3  | DPAIRS (CodeChef)                  | https://www.codechef.com/LRNDSA03/problems/DPAIRS
+Task 4  | FENCE (CodeChef)                   | https://www.codechef.com/LRNDSA03/problems/FENCE
+Task 5  | STACKS (CodeChef)                  | https://www.codechef.com/LRNDSA04/problems/STACKS
+Task 6  | EURON (CodeChef)                   | https://www.codechef.com/LRNDSA04/problems/EURON
+Task 7  | QHOUSE (CodeChef)                  | https://www.codechef.com/LRNDSA04/problems/QHOUSE
+Task 8  | Sum of Two Values                  | https://cses.fi/problemset/task/1755
+Task 9  | NOTALLFL (CodeChef)                | https://www.codechef.com/LRNDSA02/problems/NOTALLFL
+Task 10 | EXUNC (CodeChef)                   | https://www.codechef.com/LRNDSA03/problems/EXUNC
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                   LEVEL - 2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+════════════════════════════════════════
+  WEEK 1 — C++ STL Revision
+════════════════════════════════════════
+
+Task 1  | Three Numbers               | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z
+Task 2  |  Divisors               | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K
+Task 3  | STUPMACH (CodeChef)                | https://www.codechef.com/LRNDSA02/problems/STUPMACH
+Task 4  | Anton and Danik                    | https://codeforces.com/problemset/problem/734/A
+Task 5  | Max             | https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E
+Task 6  | Two intervals              | https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X
+Task 7  | Watermelon                         | https://codeforces.com/problemset/problem/4/A
+Task 8  | Way Too Long Words                 | https://codeforces.com/problemset/problem/71/A
+Task 9  | Domino Piling                      | https://codeforces.com/problemset/problem/50/A
+Task 10 | Kth Largest Element in a Stream    | https://leetcode.com/problems/kth-largest-element-in-a-stream/
+Task 11 | Valid Parentheses                  | https://leetcode.com/problems/valid-parentheses/
+Task 12 | ZCO12001 (CodeChef)                | https://www.codechef.com/LRNDSA02/problems/ZCO12001
+Task 13 | COMPILER (CodeChef)                | https://www.codechef.com/LRNDSA02/problems/COMPILER
+Task 14 | Catching Cheaters                  | https://codeforces.com/problemset/problem/1345/B
+Task 15 | SAVKONO (CodeChef)                 | https://www.codechef.com/LRNDSA03/problems/SAVKONO
+
+════════════════════════════════════════
+  WEEK 2 — Recursion + Memoization
+════════════════════════════════════════
+
+Task 1  | Generate Parentheses               | https://leetcode.com/problems/generate-parentheses
+Task 2  | Letter Combinations of a Phone Number | https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+Task 3  | Subset Sums                        | https://practice.geeksforgeeks.org/problems/subset-sums2234/1
+Task 4  | Subsets II                         | https://leetcode.com/problems/subsets-ii/
+Task 5  | Combination Sum                    | https://leetcode.com/problems/combination-sum/
+Task 6  | Combination Sum II                 | https://leetcode.com/problems/combination-sum-ii/
+Task 7  | Palindrome Partitioning            | https://leetcode.com/problems/palindrome-partitioning/
+Task 8  | N-th Tribonacci Number             | https://leetcode.com/problems/n-th-tribonacci-number/description/
+Task 9  | Climbing Stairs                    | https://leetcode.com/problems/climbing-stairs/
+Task 10 | Different Ways to Add Parentheses  | https://leetcode.com/problems/different-ways-to-add-parentheses/
+
+════════════════════════════════════════
+  WEEK 3 — Backtracking
+════════════════════════════════════════
+
+Task 1  | M-Coloring Problem                 | https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620
+Task 2  | Word Break II    | https://www.codingninjas.com/codestudio/problems/983635
+Task 3  | Sudoku Solver                      | https://leetcode.com/problems/sudoku-solver/
+Task 4  | Permutations                       | https://leetcode.com/problems/permutations/
+Task 5  | Count Good Numbers                 | https://leetcode.com/problems/count-good-numbers/description/
+Task 6  | Pow(x, n)                          | https://leetcode.com/problems/powx-n/
+Task 7  | Knight Walk                        | https://practice.geeksforgeeks.org/problems/knight-walk4521/1
+Task 8  | Word Break                         | https://leetcode.com/problems/word-break/
+Task 9  | Permutation with Spaces            | https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1
+Task 10 | Sum String                         | https://practice.geeksforgeeks.org/problems/sum-string3151/1
+
+════════════════════════════════════════
+  WEEK 4 — Problem Solving
+════════════════════════════════════════
+
+Task 1  | N-Queens                           | https://leetcode.com/problems/n-queens/
+Task 2  | Creating Expression1              | https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/V
+Task 3  | Apple Division                     | https://cses.fi/problemset/task/1624
+Task 4  | Permutations II                    | https://leetcode.com/problems/permutations-ii/
+Task 5  | K-th Symbol in Grammar             | https://leetcode.com/problems/k-th-symbol-in-grammar/
+Task 6  | [Google Kickstart] Problem         | https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e
+Task 7  | Chessboard and Queens              | https://cses.fi/problemset/task/1625
+
+════════════════════════════════════════
+  WEEK 5 — Prefix Sums, Difference Array, Circular Array
+════════════════════════════════════════
+
+Task 1  | Karen and Coffee                   | https://codeforces.com/problemset/problem/816/B
+Task 2  | Next Greater Element II            | https://leetcode.com/problems/next-greater-element-ii/
+Task 3  | Card Trick | https://codeforces.com/contest/1681/problem/B
+Task 4  | K-diff Pairs in an Array           | https://leetcode.com/problems/k-diff-pairs-in-an-array
+Task 5  | Matrix Block Sum                   | https://leetcode.com/problems/matrix-block-sum
+Task 6  | Little Girl and Maximum Sum | https://codeforces.com/contest/276/problem/C
+Task 7  | Greg and Array | https://codeforces.com/contest/295/problem/A
+Task 8  | Cherry and Bits (CodeChef)                 | https://www.codechef.com/CENS2020/problems/CENS20A
+Task 9  | Divisor Game (AtCoder ABC179D)     | https://atcoder.jp/contests/abc179/tasks/abc179_d
+Task 10 | Angry Cyborg                    | https://www.codechef.com/BYTR20B/problems/AGCY
+Task 11 | Encrypting Messages | https://codeforces.com/contest/177/problem/D2
+
+════════════════════════════════════════
+  WEEK 7 — Advanced Number Theory
+════════════════════════════════════════
+
+Task 1  | Restoration of a Number           | https://codeforces.com/problemset/problem/1828/B
+Task 2  | k-Factorization | https://codeforces.com/contest/797/problem/A
+Task 3  | Buying Shovels | https://codeforces.com/contest/1360/problem/D
+Task 4  | Little Artem and Graph             | https://codeforces.com/problemset/problem/1679/A
+Task 5  | Cows and Sequence                  | https://codeforces.com/problemset/problem/230/B
+Task 6  | GCDQ (CodeChef)                    | https://www.codechef.com/problems/GCDQ
+Task 7  | Strange Beauty                     | https://codeforces.com/problemset/problem/1474/B
+Task 8  | Make Equal With Mod | https://codeforces.com/contest/1656/problem/C
+Task 9  | Primes and Squares                 | https://cses.fi/problemset/task/2417
+Task 10 | Row GCD | https://codeforces.com/contest/1458/problem/A
+
+════════════════════════════════════════
+  WEEK 8 — Two Pointers
+════════════════════════════════════════
+
+Task 1  | [CF EDU] Two Pointers C            | https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C
+Task 2  | [CF EDU] Two Pointers C            | https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C
+Task 3  | Playlist                           | https://cses.fi/problemset/task/1641
+Task 4  | [CF EDU] Two Pointers D            | https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D
+Task 5  | Drivers Dilemma                    | https://codeforces.com/problemset/problem/253/B
+Task 6  | Letters                            | https://codeforces.com/problemset/problem/978/C
+Task 7  | Charge                             | https://codeforces.com/problemset/problem/961/B
+Task 8  | Students Divided into Camps        | https://codeforces.com/problemset/problem/920/C
+Task 9  | Devil's Beauty                     | https://codeforces.com/problemset/problem/1538/C
+Task 10 | Strange Beauty (Hard)              | https://codeforces.com/problemset/problem/1535/C
+Task 11 | Shuffle Hashing                    | https://codeforces.com/problemset/problem/1366/B
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                   LEVEL - 3
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+════════════════════════════════════════
+  WEEK 1 — String Hashing and Tricks
+════════════════════════════════════════
+
+Task 1  | Sum of Two Values                  | https://cses.fi/problemset/task/1755
+Task 2  | Group Anagrams                     | https://leetcode.com/problems/group-anagrams
+Task 3  | String Matching                    | https://cses.fi/problemset/task/1753/
+Task 4  | Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/
+Task 5  | Finding Borders                    | https://cses.fi/problemset/task/1732
+Task 6  | Count Distinct Substrings          | https://www.geeksforgeeks.org/count-number-of-distinct-substring-in-a-string/
+Task 7  | Password                           | https://codeforces.com/problemset/problem/126/B
+Task 8  | Repeated DNA Sequences             | https://leetcode.com/problems/repeated-dna-sequences
+Task 9  | Sereja and Two Strings             | https://codeforces.com/problemset/problem/385/B
+Task 10 | D-query (CF 271/D)                 | https://codeforces.com/problemset/problem/271/D
+
+════════════════════════════════════════
+  WEEK 2 — Greedy Algorithms
+════════════════════════════════════════
+
+Task 1  | Maximum Product Subarray           | https://leetcode.com/problems/maximum-product-subarray/
+Task 2  | Twice                              | https://codeforces.com/problemset/problem/1285/B
+Task 3  | Minimal Rotation                   | https://codeforces.com/problemset/problem/1291/B
+Task 4  | Jump Game II                       | https://leetcode.com/problems/jump-game-ii/
+Task 5  | Parity Shuffle                     | https://codeforces.com/problemset/problem/1294/C
+Task 6  | Maximum Score of Spliced Array     | https://leetcode.com/problems/maximum-score-of-spliced-array/
+Task 7  | Block Towers                       | https://codeforces.com/problemset/problem/1815/A
+Task 8  | Sum of Round Numbers               | https://codeforces.com/problemset/problem/1810/C
+Task 9  | Anya and Plates                    | https://codeforces.com/problemset/problem/1773/E
+Task 10 | Serega and Two Queues              | https://codeforces.com/problemset/problem/1765/N
+Task 11 | Vasya and Robot                    | https://codeforces.com/problemset/problem/797/C
+Task 12 | Mixing Water                       | https://codeforces.com/problemset/problem/1693/A
+Task 13 | Experimental Educational Problem   | https://codeforces.com/problemset/problem/91/A
+Task 14 | Vasya and Csession                 | https://codeforces.com/problemset/problem/1660/C
+Task 15 | Fibonacci Strings                  | https://codeforces.com/problemset/problem/1742/F
+Task 16 | Maximum Sum of Digits              | https://codeforces.com/problemset/problem/1380/B
+Task 17 | Powered Addition                   | https://codeforces.com/problemset/problem/1338/A
+
+════════════════════════════════════════
+  WEEK 3 — Problem Solving (Greedy)
+════════════════════════════════════════
+
+Task 1  | Crucial Experiment                 | https://codeforces.com/problemset/problem/950/C
+Task 2  | Rectangle Creep                    | https://codeforces.com/problemset/problem/898/D
+Task 3  | Bear and Friendship Condition      | https://codeforces.com/problemset/problem/771/B
+Task 4  | Peter and Snow Blower              | https://codeforces.com/problemset/problem/154/A
+Task 5  | Guess the Tree                     | https://codeforces.com/problemset/problem/250/C
+Task 6  | Vasya and Petya's Game             | https://codeforces.com/problemset/problem/293/A
+Task 7  | Vasya and String                   | https://codeforces.com/problemset/problem/328/B
+Task 8  | Vasya and Basketball               | https://codeforces.com/problemset/problem/333/A
+Task 9  | Vasya and Queue                    | https://codeforces.com/problemset/problem/436/A
+Task 10 | A and B and Lectures               | https://codeforces.com/problemset/problem/494/A
+
+════════════════════════════════════════
+  WEEK 4 — Binary Search (Advanced) + Ternary Search
+════════════════════════════════════════
+
+Task 1  | [CF EDU] Binary Search B           | https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B
+Task 2  | Factory Machines                   | https://cses.fi/problemset/task/1620
+Task 3  | Aggressive Cows                    | https://www.spoj.com/problems/AGGRCOW/
+Task 4  | Symmetric Encoding                 | https://codeforces.com/problemset/problem/1622/C
+Task 5  | Preparing for Merge Sort | https://codeforces.com/contest/847/problem/B
+Task 6  | SUM and REPLACE                    | https://codeforces.com/problemset/problem/1610/C
+Task 7  | Alyona and Spreadsheet             | https://codeforces.com/contest/782/problem/B
+Task 8  | Forgetting Things                  | https://codeforces.com/problemset/problem/1619/D
+Task 9  | Maximum Median | https://codeforces.com/contest/1201/problem/C
+Task 10 | Magic Ship                         | https://codeforces.com/problemset/problem/1117/C
+Task 11 | AMCS03 (CodeChef)                  | https://www.codechef.com/problems/AMCS03
+Task 12 | Primes and Squares (CSES)          | https://cses.fi/problemset/task/2422
+Task 13 | Almost Arithmetic Progression      | https://codeforces.com/problemset/problem/578/C
+
+════════════════════════════════════════
+  WEEK 5 — Problem Solving (Binary Search + Interactive)
+════════════════════════════════════════
+
+Task 1  | MinOr Tree                         | https://codeforces.com/problemset/problem/1520/F1
+Task 2  | Answer the Query                   | https://codeforces.com/problemset/problem/1425/F
+Task 3  | Vasya and Multisets                | https://codeforces.com/problemset/problem/493/C
+Task 4  | Grand Prix of Ballistics           | https://codeforces.com/problemset/problem/1624/D
+Task 5  | Codeforces Is Cool                 | https://codeforces.com/problemset/problem/1486/C1
+Task 6  | Cube-shaped Roots                  | https://codeforces.com/problemset/problem/1698/D
+Task 7  | Madoka and the Elegant Gift        | https://codeforces.com/problemset/problem/1487/D
+Task 8  | Copy-paste                         | https://codeforces.com/problemset/problem/1729/E
+
+════════════════════════════════════════
+  WEEK 6 — Two Pointers + Sliding Window
+════════════════════════════════════════
+
+Task 1  | [CF EDU] Two Pointers C (lesson 1) | https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C
+Task 2  | [CF EDU] Two Pointers D (lesson 2) | https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D
+Task 3  | [CF EDU] Two Pointers F (lesson 2) | https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/F
+Task 4  | [CF EDU] Two Pointers B (lesson 3) | https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/B
+Task 5  | Guess the Path                     | https://codeforces.com/problemset/problem/702/C
+Task 6  | [CF EDU] Two Pointers A (lesson 3) | https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/A
+Task 7  | [CF EDU] Two Pointers C (lesson 3) | https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/C
+Task 8  | Smallest Range Covering Elements from K Lists | https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+Task 9  | Frog Jumping                       | https://codeforces.com/problemset/problem/1251/C
+Task 10 | Sliding Window Maximum             | https://leetcode.com/problems/sliding-window-maximum/
+Task 11 | Maximum Subarray Sum               | https://cses.fi/problemset/task/1644
+Task 12 | Sliding Median                     | https://cses.fi/problemset/task/1076
+Task 13 | Permutation in String              | https://leetcode.com/problems/permutation-in-string/
+Task 14 | Sliding Cost                       | https://cses.fi/problemset/task/1077
+Task 15 | Minimum Number of K Consecutive Bit Flips | https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/
+
+════════════════════════════════════════
+  WEEK 7 — Number Theory (Advanced)
+════════════════════════════════════════
+
+Task 1  | Hometask                           | https://codeforces.com/problemset/problem/154/B
+Task 2  | Cows and Sequence                  | https://codeforces.com/problemset/problem/284/A
+Task 3  | Restoring Permutation              | https://codeforces.com/problemset/problem/343/A
+Task 4  | Vasya and Path                     | https://codeforces.com/problemset/problem/375/A
+Task 5  | 2048 Game                          | https://codeforces.com/problemset/problem/495/B
+Task 6  | Books                              | https://codeforces.com/problemset/problem/576/A
+Task 7  | Arpa's letter-marked tree          | https://codeforces.com/problemset/problem/735/D
+Task 8  | Alex and a Rhombus                 | https://codeforces.com/problemset/problem/1349/A
+Task 9  | Rotate Columns                     | https://codeforces.com/problemset/problem/1458/A
+Task 10 | VECTAR8 (SPOJ)                     | https://www.spoj.com/problems/VECTAR8/
+Task 11 | HS08PAUL (SPOJ)                    | https://www.spoj.com/problems/HS08PAUL/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                   LEVEL - 4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+════════════════════════════════════════
+  WEEK 1 — DP Beginner
+════════════════════════════════════════
+
+Task 1  | Dice Combinations                  | https://cses.fi/problemset/task/1633
+Task 2  | Minimizing Coins                   | https://cses.fi/problemset/task/1634
+Task 3  | Coin Combinations I                | https://cses.fi/problemset/task/1635
+Task 4  | Interval Scheduling               | https://codeforces.com/problemset/problem/1350/B
+Task 5  | Coin Combinations II               | https://cses.fi/problemset/task/1636
+Task 6  | Removing Digits                    | https://cses.fi/problemset/task/1637
+Task 7  | Grid Paths                         | https://cses.fi/problemset/task/1638
+Task 8  | Cashier Employment                 | https://codeforces.com/problemset/problem/455/A
+Task 9  | Knapsack (AtCoder DP E)            | https://atcoder.jp/contests/dp/tasks/dp_e
+Task 10 | Book Shop                          | https://cses.fi/problemset/task/1158
+Task 11 | Count Reachable Nodes              | https://codeforces.com/problemset/problem/1288/C
+Task 12 | Counting Towers                    | https://cses.fi/problemset/task/1745
+Task 13 | Candies (AtCoder DP M)             | https://atcoder.jp/contests/dp/tasks/dp_m
+Task 14 | Knapsack (CF 166E)                 | https://codeforces.com/problemset/problem/166/E
+Task 15 | Planets Queries I                  | https://cses.fi/problemset/task/1140
+Task 16 | Coin Combinations (Hard)           | https://cses.fi/problemset/task/1639
+Task 17 | Flowers (AtCoder DP I)             | https://atcoder.jp/contests/dp/tasks/dp_i
+
+════════════════════════════════════════
+  WEEK 2 — DP Intermediate
+════════════════════════════════════════
+
+Task 1  | Maximum Median                     | https://codeforces.com/problemset/problem/1389/B
+Task 2  | Maximum Sum of Digits             | https://codeforces.com/problemset/problem/1249/E
+Task 3  | Dima and a Bad XOR | https://codeforces.com/contest/1151/problem/B
+Task 4  | Filling the Gaps                   | https://codeforces.com/problemset/problem/1498/C
+Task 5  | Gregor and the Odd Cows            | https://codeforces.com/problemset/problem/1625/C
+Task 6  | Omkar and Bed Wars                 | https://codeforces.com/problemset/problem/1392/D
+Task 7  | Staircase Sequences                | https://codeforces.com/problemset/problem/1077/F1
+Task 8  | Sushi (AtCoder DP N)               | https://atcoder.jp/contests/dp/tasks/dp_n
+Task 9  | [Google Kickstart] Problem         | https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e
+Task 10 | Vasya and Maximum Weight           | https://codeforces.com/problemset/problem/1360/F
+
+════════════════════════════════════════
+  WEEK 3 — DP Advanced
+════════════════════════════════════════
+
+Task 2  | Planets Queries I                  | https://cses.fi/problemset/task/1140
+Task 3  | Minimum XOR Sum of Two Arrays      | https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/
+Task 4  | TSHIRTS (CodeChef)                 | https://www.codechef.com/problems/TSHIRTS
+Task 5  | Matching (AtCoder DP O)            | https://atcoder.jp/contests/dp/tasks/dp_o
+Task 6  | Elevator Rides                     | https://cses.fi/problemset/task/1653
+Task 7  | Square Subsets                     | https://codeforces.com/problemset/problem/895/C
+Task 8  | COURIER (SPOJ)                     | https://www.spoj.com/problems/COURIER/
+Task 9  | Kefa and Dishes | https://codeforces.com/contest/580/problem/D
+Task 10 | ASSIGN (SPOJ)                      | https://www.spoj.com/problems/ASSIGN/
+
+════════════════════════════════════════
+  WEEK 4 — Range Queries Beginner
+════════════════════════════════════════
+
+Task 1  | [CF EDU] Segment Tree 4/1 A        | https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/A
+Task 2  | [CF EDU] Segment Tree 4/1 B        | https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B
+Task 3  | [CF EDU] Segment Tree 4/1 C        | https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/C
+Task 4  | [CF EDU] Segment Tree 4/2 A        | https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/A
+Task 5  | [CF EDU] Segment Tree 4/2 B        | https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/B
+Task 6  | [CF EDU] Segment Tree 4/2 D        | https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/D
+Task 7  | Xenia and Bit Operations | https://codeforces.com/contest/339/problem/D
+Task 8  | Sereja and Brackets | https://codeforces.com/contest/380/problem/C
+Task 9  | [CF EDU] Segment Tree 5/2 A        | https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/A
+Task 10 | [CF EDU] Segment Tree 5/2 B        | https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/B
+Task 11 | [CF EDU] Segment Tree 5/2 C        | https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/C
+Task 12 | Circular RMQ | https://codeforces.com/contest/52/problem/C
+Task 13 | [CF EDU] Segment Tree 4/3 C        | https://codeforces.com/edu/course/2/lesson/4/3/practice/contest/274545/problem/C
+Task 14 | XOR on Segment | https://codeforces.com/contest/242/problem/E
+Task 15 | Primes and Squares                 | https://cses.fi/problemset/task/2422
+Task 16 | Almost Arithmetic Progression      | https://codeforces.com/problemset/problem/578/C
+
+════════════════════════════════════════
+  WEEK 5 — Range Queries Intermediate
+════════════════════════════════════════
+
+Task 1  | Dynamic Range Sum Queries          | https://cses.fi/problemset/task/1648
+Task 2  | Burning Midnight Oil               | https://codeforces.com/problemset/problem/1709/D
+Task 3  | Subsequences | https://codeforces.com/contest/597/problem/C
+Task 4  | Black Square                       | https://codeforces.com/problemset/problem/704/A
+Task 5  | Turn Off The TV | https://codeforces.com/contest/863/problem/E
+Task 6  | Little Girl and Maximum Sum | https://codeforces.com/contest/276/problem/C
+Task 7  | Little Artem and Time Machine      | https://codeforces.com/contest/669/problem/E
+Task 8  | Dima and Salad                     | https://codeforces.com/problemset/problem/514/D
+Task 9  | Longest Regular Bracket Sequence | https://codeforces.com/contest/5/problem/C
+Task 10 | Interesting Array | https://codeforces.com/contest/482/problem/B
+
+════════════════════════════════════════
+  WEEK 6 — Trees Beginner
+════════════════════════════════════════
+
+Task 1  | Kefa and Park                      | https://codeforces.com/problemset/problem/580/C
+Task 2  | Jury Meeting                       | https://codeforces.com/problemset/problem/1336/A
+Task 3  | Even Substrings                    | https://codeforces.com/problemset/problem/1388/C
+Task 4  | Tree Matching                      | https://cses.fi/problemset/task/1131
+Task 5  | Demiurge                           | https://codeforces.com/problemset/problem/1593/E
+Task 6  | Grow a Tree                        | https://codeforces.com/problemset/problem/1143/C
+Task 7  | Free Ice Cream                     | https://codeforces.com/problemset/problem/369/C
+Task 8  | Tourist                            | https://codeforces.com/problemset/problem/780/C
+Task 9  | Yet Another Walk                   | https://codeforces.com/problemset/problem/930/A
+Task 10 | Colorful Trees                     | https://codeforces.com/problemset/problem/1037/D
+
+════════════════════════════════════════
+  WEEK 7 — Trees Advanced
+════════════════════════════════════════
+
+Task 1  | Subtree Queries                    | https://cses.fi/problemset/task/1687
+Task 2  | Path Queries                       | https://cses.fi/problemset/task/1688
+Task 3  | Tree Diameter                      | https://cses.fi/problemset/task/1135
+Task 4  | Tree Distances I                   | https://cses.fi/problemset/task/1136
+Task 5  | Vasya and Tree                     | https://codeforces.com/problemset/problem/191/C
+Task 6  | Three Paths on a Tree | https://codeforces.com/contest/1294/problem/F
+Task 7  | Maximum White Subtree | https://codeforces.com/contest/1324/problem/F
+Task 8  | Forest Queries                     | https://codeforces.com/problemset/problem/1092/F
+Task 9  | Kolya and Tanya                    | https://codeforces.com/problemset/problem/685/B
+Task 10 | Charity                            | https://codeforces.com/problemset/problem/1746/D
+
+================================================================================
+  NOTES:
+  - [CF Group] problems require joining the respective Codeforces group to view
+  - CF EDU problems are from Codeforces Educational section (free to access)
+  - Some problem names for CF Group/private contests are not publicly listed,
+    so they are labeled by their contest letter identifier
+================================================================================

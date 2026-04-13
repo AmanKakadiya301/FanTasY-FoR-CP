@@ -1,0 +1,3065 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "Level 1",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "C++ Basic 1",
+          "topics": [
+            {
+              "title": "C++ Basics 1",
+              "resources": [
+                {
+                  "title": "Lecture slides 1.1 C++ Basics 1",
+                  "link": "https://drive.google.com/file/d/1wRiGozqal1s7YD0dH88dmS2ZNUR2Kqp1/view"
+                },
+                {
+                  "title": "C++ Basics 1.1 Feedback Form",
+                  "link": "https://forms.gle/p2DtZzQuQ2xmutae8"
+                },
+                {
+                  "title": "Lecture Slides 1.1 Introduction to Online Judges",
+                  "link": "https://drive.google.com/file/d/1s9IQzo11vRofExgv5dkNdWcwLjoGNqnP/view"
+                },
+                {
+                  "title": "Introduction to Online Judges 1.1 Feedback Form",
+                  "link": "https://forms.gle/A3dohxG5ZjnnCcuT9"
+                },
+                {
+                  "title": "Lecture Slides 1.2 Introduction to Online Judges",
+                  "link": "https://drive.google.com/file/d/1s9IQzo11vRofExgv5dkNdWcwLjoGNqnP/view"
+                },
+                {
+                  "title": "Introduction to Online Judges 1.2 Feedback Form",
+                  "link": "https://forms.gle/A3dohxG5ZjnnCcuT9"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-219158J",
+                  "title": "219158J",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158T",
+                  "title": "219158T",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158F",
+                  "title": "219158F",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-326907D",
+                  "title": "326907D",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-4A",
+                  "title": "4A",
+                  "link": "https://codeforces.com/problemset/problem/4/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158G",
+                  "title": "219158G",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/G",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158I",
+                  "title": "219158I",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/I",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158K",
+                  "title": "219158K",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/K",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158L",
+                  "title": "219158L",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/L",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158N",
+                  "title": "219158N",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/N",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158Y",
+                  "title": "219158Y",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Y",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158W",
+                  "title": "219158W",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158V",
+                  "title": "219158V",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158U",
+                  "title": "219158U",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/U",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158Z",
+                  "title": "219158Z",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            },
+            {
+              "title": "C++ Basics 2 + Online Judge Introduction",
+              "resources": [
+                {
+                  "title": "Lecture Slides C++ Basics 2",
+                  "link": "https://drive.google.com/file/d/1yoiTXwkI79m8gHESUwQb0YCD9fiW4BBb/view"
+                },
+                {
+                  "title": "Feedback Form C++ Basics 2",
+                  "link": "https://forms.gle/nBSVjRK6xUNar4kE8"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-219432K",
+                  "title": "219432K",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219432H",
+                  "title": "219432H",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219432C",
+                  "title": "219432C",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219432Z",
+                  "title": "219432Z",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219432J",
+                  "title": "219432J",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/J",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219774O",
+                  "title": "219774O",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/O",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1A",
+                  "title": "1A",
+                  "link": "https://codeforces.com/problemset/problem/1/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-630A",
+                  "title": "630A",
+                  "link": "https://codeforces.com/problemset/problem/630/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-329103G",
+                  "title": "329103G",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/329103/problem/G",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-abc258_a",
+                  "title": "abc258_a",
+                  "link": "https://atcoder.jp/contests/abc258/tasks/abc258_a",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-271A",
+                  "title": "271A",
+                  "link": "https://codeforces.com/problemset/problem/271/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1030A",
+                  "title": "1030A",
+                  "link": "https://codeforces.com/problemset/problem/1030/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-abc263_a",
+                  "title": "abc263_a",
+                  "link": "https://atcoder.jp/contests/abc263/tasks/abc263_a",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "C++ Basic 2 + Online Judge Introduction",
+          "topics": []
+        },
+        {
+          "week": 3,
+          "title": "Time and Space Complexity",
+          "topics": [
+            {
+              "title": "Time and Space Complexity",
+              "resources": [
+                {
+                  "title": "Lecture slides Time Complexity 23-04-2023 TLE 1",
+                  "link": "https://drive.google.com/file/d/1CyrW0c2nB7-vaJV4X5hbzS52-9HEmP7k/view"
+                },
+                {
+                  "title": "Feedback Form Time Complexity 23-04-2023 TLE 1",
+                  "link": "https://forms.gle/dDbZ37HD8JWiyznb8"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-1535A",
+                  "title": "1535A",
+                  "link": "https://codeforces.com/problemset/problem/1535/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-214A",
+                  "title": "214A",
+                  "link": "https://codeforces.com/problemset/problem/214/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-320A",
+                  "title": "320A",
+                  "link": "https://codeforces.com/problemset/problem/320/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "hr-summing-the-n-series",
+                  "title": "Summing The N Series",
+                  "link": "https://www.hackerrank.com/challenges/summing-the-n-series/problem",
+                  "platform": "HackerRank",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "hr-number-groups",
+                  "title": "Number Groups",
+                  "link": "https://www.hackerrank.com/challenges/number-groups/problem",
+                  "platform": "HackerRank",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-758A",
+                  "title": "758A",
+                  "link": "https://codeforces.com/problemset/problem/758/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1374A",
+                  "title": "1374A",
+                  "link": "https://codeforces.com/problemset/problem/1374/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1512A",
+                  "title": "1512A",
+                  "link": "https://codeforces.com/problemset/problem/1512/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-199A",
+                  "title": "199A",
+                  "link": "https://codeforces.com/problemset/problem/199/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1269A",
+                  "title": "1269A",
+                  "link": "https://codeforces.com/problemset/problem/1269/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1496A",
+                  "title": "1496A",
+                  "link": "https://codeforces.com/problemset/problem/1496/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1428C",
+                  "title": "1428C",
+                  "link": "https://codeforces.com/problemset/problem/1428/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1633C",
+                  "title": "1633C",
+                  "link": "https://codeforces.com/problemset/problem/1633/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1499B",
+                  "title": "1499B",
+                  "link": "https://codeforces.com/problemset/problem/1499/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Problem Solving (general)",
+          "topics": [
+            {
+              "title": "Problem Solving (general)",
+              "resources": [
+                {
+                  "title": "Feedback Form Problem Solving 1 + Strings  30-04-2023",
+                  "link": "https://forms.gle/kQ4wf4oJwnG4Kz2bA"
+                },
+                {
+                  "title": "Lecture slides Problem Solving 1 + Strings 30-04-2023",
+                  "link": "https://drive.google.com/file/d/1IkzlzWHQtMTN8Zd0chvvLFl5WMDV3nQX/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1083",
+                  "title": "Task 1083",
+                  "link": "https://cses.fi/problemset/task/1083",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1094",
+                  "title": "Task 1094",
+                  "link": "https://cses.fi/problemset/task/1094",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1713",
+                  "title": "Task 1713",
+                  "link": "https://cses.fi/problemset/task/1713",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-find-the-distance-value-between-two-arrays",
+                  "title": "Find The Distance Value Between Two Arrays",
+                  "link": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1335C",
+                  "title": "1335C",
+                  "link": "https://codeforces.com/problemset/problem/1335/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1374B",
+                  "title": "1374B",
+                  "link": "https://codeforces.com/problemset/problem/1374/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1071",
+                  "title": "Task 1071",
+                  "link": "https://cses.fi/problemset/task/1071",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1755",
+                  "title": "Task 1755",
+                  "link": "https://cses.fi/problemset/task/1755",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1343C",
+                  "title": "1343C",
+                  "link": "https://codeforces.com/problemset/problem/1343/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1327A",
+                  "title": "1327A",
+                  "link": "https://codeforces.com/problemset/problem/1327/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "title": "Number Theory",
+          "topics": [
+            {
+              "title": "Number Theory",
+              "resources": [
+                {
+                  "title": "Feedback Form Number Theory 2",
+                  "link": "https://forms.gle/LiCo5Ckj252M7NFU6"
+                },
+                {
+                  "title": "Lecture slides Number Theory 2",
+                  "link": "https://drive.google.com/file/d/1FKoGyCg2P2sTGmivYYPH790GOTWn_1ku/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-1549A",
+                  "title": "1549A",
+                  "link": "https://codeforces.com/contest/1549/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1475A",
+                  "title": "1475A",
+                  "link": "https://codeforces.com/problemset/problem/1475/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1165D",
+                  "title": "1165D",
+                  "link": "https://codeforces.com/problemset/problem/1165/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-17A",
+                  "title": "17A",
+                  "link": "https://codeforces.com/problemset/problem/17/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "hr-sherlock-and-divisors",
+                  "title": "Sherlock And Divisors",
+                  "link": "https://www.hackerrank.com/challenges/sherlock-and-divisors/problem",
+                  "platform": "HackerRank",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1474B",
+                  "title": "1474B",
+                  "link": "https://codeforces.com/problemset/problem/1474/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1143B",
+                  "title": "1143B",
+                  "link": "https://codeforces.com/problemset/problem/1143/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-797A",
+                  "title": "797A",
+                  "link": "https://codeforces.com/problemset/problem/797/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-682A",
+                  "title": "682A",
+                  "link": "https://codeforces.com/problemset/problem/682/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1521A",
+                  "title": "1521A",
+                  "link": "https://codeforces.com/problemset/problem/1521/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-STRNO",
+                  "title": "STRNO",
+                  "link": "https://www.codechef.com/problems/STRNO",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1285C",
+                  "title": "1285C",
+                  "link": "https://codeforces.com/problemset/problem/1285/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-550C",
+                  "title": "550C",
+                  "link": "https://codeforces.com/problemset/problem/550/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "title": "Searching and Sorting",
+          "topics": [
+            {
+              "title": "Searching and Sorting",
+              "resources": [
+                {
+                  "title": "Lecture slides Searching and Sorting 21-05-2023",
+                  "link": "https://drive.google.com/file/d/1DEwBux8RGVaa1vXRG25WjGQ3l_lUFlvA/view"
+                },
+                {
+                  "title": "Feedback Form Searching and Sorting 21-05-2023",
+                  "link": "https://forms.gle/LtCUeh5JNbpZHxVu9"
+                },
+                {
+                  "title": "Feedback Form Binary Search 27-05-2023",
+                  "link": "https://forms.gle/KkjABM2xZRA5wQ94A"
+                },
+                {
+                  "title": "Lecture slides Binary search 27-05-2023",
+                  "link": "https://drive.google.com/file/d/1nlGLIK_LCkx9RslW26IWIfC3-HcmsrLc/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "lc-sum-of-all-odd-length-subarrays",
+                  "title": "Sum Of All Odd Length Subarrays",
+                  "link": "https://leetcode.com/problems/sum-of-all-odd-length-subarrays/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-find-pivot-index",
+                  "title": "Find Pivot Index",
+                  "link": "https://leetcode.com/problems/find-pivot-index/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-sqrtx",
+                  "title": "Sqrtx",
+                  "link": "https://leetcode.com/problems/sqrtx/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-search-insert-position",
+                  "title": "Search Insert Position",
+                  "link": "https://leetcode.com/problems/search-insert-position/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-product-of-array-except-self",
+                  "title": "Product Of Array Except Self",
+                  "link": "https://leetcode.com/problems/product-of-array-except-self/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-peak-index-in-a-mountain-array",
+                  "title": "Peak Index In A Mountain Array",
+                  "link": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-missing-number",
+                  "title": "Missing Number",
+                  "link": "https://leetcode.com/problems/missing-number/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1675B",
+                  "title": "1675B",
+                  "link": "https://codeforces.com/problemset/problem/1675/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-262795B",
+                  "title": "262795B",
+                  "link": "https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-262795C",
+                  "title": "262795C",
+                  "link": "https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-262795D",
+                  "title": "262795D",
+                  "link": "https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 7,
+          "title": "C++ STL",
+          "topics": [
+            {
+              "title": "C++ STL",
+              "resources": [
+                {
+                  "title": "Lecture slides C++ STL 1 28-05-2023 `",
+                  "link": "https://drive.google.com/file/d/1N70APv9ppM-KDHKqVeWiPFscUHgCl_X8/view"
+                },
+                {
+                  "title": "Feedback Form C++ STL 1 28-05-2023 `",
+                  "link": "https://forms.gle/YpVdVG3px5gzWUhD8"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cc-SAVKONO",
+                  "title": "SAVKONO",
+                  "link": "https://www.codechef.com/LRNDSA03/problems/SAVKONO",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-CVOTE",
+                  "title": "CVOTE",
+                  "link": "https://www.codechef.com/LRNDSA03/problems/CVOTE",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-DPAIRS",
+                  "title": "DPAIRS",
+                  "link": "https://www.codechef.com/LRNDSA03/problems/DPAIRS",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-FENCE",
+                  "title": "FENCE",
+                  "link": "https://www.codechef.com/LRNDSA03/problems/FENCE",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-STACKS",
+                  "title": "STACKS",
+                  "link": "https://www.codechef.com/LRNDSA04/problems/STACKS",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-EURON",
+                  "title": "EURON",
+                  "link": "https://www.codechef.com/LRNDSA04/problems/EURON",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-QHOUSE",
+                  "title": "QHOUSE",
+                  "link": "https://www.codechef.com/LRNDSA04/problems/QHOUSE",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-NOTALLFL",
+                  "title": "NOTALLFL",
+                  "link": "https://www.codechef.com/LRNDSA02/problems/NOTALLFL",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1755",
+                  "title": "Task 1755",
+                  "link": "https://cses.fi/problemset/task/1755",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-EXUNC",
+                  "title": "EXUNC",
+                  "link": "https://www.codechef.com/LRNDSA03/problems/EXUNC",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "title": "C++ STL 2",
+          "topics": []
+        },
+        {
+          "week": 9,
+          "title": "Sliding Windows + Two Pointers",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Level 2",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "STL Revision",
+          "topics": [
+            {
+              "title": "C++ STL Revision",
+              "resources": [
+                {
+                  "title": "Lecture slides 2.1 C++ STL Revision",
+                  "link": "https://drive.google.com/file/d/1zVQFvG3_OXWi5svr-IaQgy_wXn-z6y6e/view"
+                },
+                {
+                  "title": "Lecture slides 2.2 C++ STL Revision",
+                  "link": "https://drive.google.com/file/d/1O8TqVHO-oEAvBa623Q_MltFV3fuo5xa-/view"
+                },
+                {
+                  "title": "Feedback Form 2.1 C++ STL Revision",
+                  "link": "https://forms.gle/vWn5Ag21n6smv5579"
+                },
+                {
+                  "title": "Feedback Form 2.2 C++ STL Revision",
+                  "link": "https://forms.gle/vWn5Ag21n6smv5579"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-219432Z",
+                  "title": "219432Z",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/Z",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219432K",
+                  "title": "219432K",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-734A",
+                  "title": "734A",
+                  "link": "https://codeforces.com/problemset/problem/734/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219432E",
+                  "title": "219432E",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-219158X",
+                  "title": "219158X",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/X",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-4A",
+                  "title": "4A",
+                  "link": "https://codeforces.com/problemset/problem/4/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-71A",
+                  "title": "71A",
+                  "link": "https://codeforces.com/problemset/problem/71/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-50A",
+                  "title": "50A",
+                  "link": "https://codeforces.com/problemset/problem/50/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-kth-largest-element-in-a-stream",
+                  "title": "Kth Largest Element In A Stream",
+                  "link": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-valid-parentheses",
+                  "title": "Valid Parentheses",
+                  "link": "https://leetcode.com/problems/valid-parentheses/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-ZCO12001",
+                  "title": "ZCO12001",
+                  "link": "https://www.codechef.com/LRNDSA02/problems/ZCO12001",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-COMPILER",
+                  "title": "COMPILER",
+                  "link": "https://www.codechef.com/LRNDSA02/problems/COMPILER",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1345B",
+                  "title": "1345B",
+                  "link": "https://codeforces.com/problemset/problem/1345/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-SAVKONO",
+                  "title": "SAVKONO",
+                  "link": "https://www.codechef.com/LRNDSA03/problems/SAVKONO",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-STUPMACH",
+                  "title": "STUPMACH",
+                  "link": "https://www.codechef.com/LRNDSA02/problems/STUPMACH",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "Recursion + Memorization",
+          "topics": [
+            {
+              "title": "Recursion + Memoization",
+              "resources": [
+                {
+                  "title": "Lecture slides Recursion & Memoization 16-04-2023 TLE 2.1",
+                  "link": "https://drive.google.com/file/d/1cT9_mXQqNUxS2qi0rB1yNURXPkB2rBvP/view"
+                },
+                {
+                  "title": "Lecture slides Recursion & Memoization 16-04-2023 TLE 2.2",
+                  "link": "https://drive.google.com/file/d/18otKuwD-djiQyxJKVOiC0xb78WshXwep/view"
+                },
+                {
+                  "title": "Feedback Form Recursion & Memoization 16-04-2023 TLE 2.1",
+                  "link": "https://forms.gle/d8scPdPScnZtEVh8A"
+                },
+                {
+                  "title": "Feedback Form Recursion & Memoization 16-04-2023 TLE 2.2",
+                  "link": "https://forms.gle/d8scPdPScnZtEVh8A"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "lc-generate-parentheses",
+                  "title": "Generate Parentheses",
+                  "link": "https://leetcode.com/problems/generate-parentheses",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-letter-combinations-of-a-phone-number",
+                  "title": "Letter Combinations Of A Phone Number",
+                  "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "gfg-https://practice.geeksforgeeks.org/problems/subset-sums2234/1",
+                  "title": "subset sums",
+                  "link": "https://practice.geeksforgeeks.org/problems/subset-sums2234/1",
+                  "platform": "GeeksforGeeks",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-subsets-ii",
+                  "title": "Subsets Ii",
+                  "link": "https://leetcode.com/problems/subsets-ii/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-combination-sum",
+                  "title": "Combination Sum",
+                  "link": "https://leetcode.com/problems/combination-sum/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-combination-sum-ii",
+                  "title": "Combination Sum Ii",
+                  "link": "https://leetcode.com/problems/combination-sum-ii/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-palindrome-partitioning",
+                  "title": "Palindrome Partitioning",
+                  "link": "https://leetcode.com/problems/palindrome-partitioning/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-n-th-tribonacci-number",
+                  "title": "N Th Tribonacci Number",
+                  "link": "https://leetcode.com/problems/n-th-tribonacci-number/description/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-climbing-stairs",
+                  "title": "Climbing Stairs",
+                  "link": "https://leetcode.com/problems/climbing-stairs/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-different-ways-to-add-parentheses",
+                  "title": "Different Ways To Add Parentheses",
+                  "link": "https://leetcode.com/problems/different-ways-to-add-parentheses/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "Backtracking",
+          "topics": [
+            {
+              "title": "Backtracking",
+              "resources": [
+                {
+                  "title": "Lecture Slides Backtracking 22-04-2023 TLE 2",
+                  "link": "https://drive.google.com/file/d/1PAB-Wtm16ikCvbOt_RZT-JJRWxItgAAk/view"
+                },
+                {
+                  "title": "Feedback Form Backtracking 22-04-2023 TLE 2",
+                  "link": "https://forms.gle/YxeWHruZ2qAvaKKS6"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "gfg-https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620",
+                  "title": "m coloring problem",
+                  "link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620",
+                  "platform": "GeeksforGeeks",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cn-https://www.codingninjas.com/codestudio/problems/983635",
+                  "title": "CodingNinjas Problem",
+                  "link": "https://www.codingninjas.com/codestudio/problems/983635",
+                  "platform": "CodingNinjas",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-sudoku-solver",
+                  "title": "Sudoku Solver",
+                  "link": "https://leetcode.com/problems/sudoku-solver/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-permutations",
+                  "title": "Permutations",
+                  "link": "https://leetcode.com/problems/permutations/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-count-good-numbers",
+                  "title": "Count Good Numbers",
+                  "link": "https://leetcode.com/problems/count-good-numbers/description/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-powx-n",
+                  "title": "Powx N",
+                  "link": "https://leetcode.com/problems/powx-n/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "gfg-https://practice.geeksforgeeks.org/problems/knight-walk4521/1",
+                  "title": "knight walk",
+                  "link": "https://practice.geeksforgeeks.org/problems/knight-walk4521/1",
+                  "platform": "GeeksforGeeks",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-word-break",
+                  "title": "Word Break",
+                  "link": "https://leetcode.com/problems/word-break/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "gfg-https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1",
+                  "title": "permutation with spaces",
+                  "link": "https://practice.geeksforgeeks.org/problems/permutation-with-spaces3627/1",
+                  "platform": "GeeksforGeeks",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "gfg-https://practice.geeksforgeeks.org/problems/sum-string3151/1",
+                  "title": "sum string",
+                  "link": "https://practice.geeksforgeeks.org/problems/sum-string3151/1",
+                  "platform": "GeeksforGeeks",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Problem Solving",
+          "topics": [
+            {
+              "title": "Problem Solving",
+              "resources": [
+                {
+                  "title": "Lecture Slides Backtracking 01-05-2023 TLE 2",
+                  "link": "https://drive.google.com/file/d/1dQT870uj60Xukpsi5Wx2anQ7LfeNanW9/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "lc-n-queens",
+                  "title": "N Queens",
+                  "link": "https://leetcode.com/problems/n-queens/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-223339V",
+                  "title": "223339V",
+                  "link": "https://codeforces.com/group/MWSDmqGsZm/contest/223339/problem/V",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1624",
+                  "title": "Task 1624",
+                  "link": "https://cses.fi/problemset/task/1624",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-permutations-ii",
+                  "title": "Permutations Ii",
+                  "link": "https://leetcode.com/problems/permutations-ii/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-k-th-symbol-in-grammar",
+                  "title": "K Th Symbol In Grammar",
+                  "link": "https://leetcode.com/problems/k-th-symbol-in-grammar/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e",
+                  "title": "00000000009e762e",
+                  "link": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e",
+                  "platform": "Unknown",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1625",
+                  "title": "Task 1625",
+                  "link": "https://cses.fi/problemset/task/1625",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "title": "Prefix Sums, Difference Array, Circular Array",
+          "topics": [
+            {
+              "title": "Prefix Sums, Difference Array, Circular Array",
+              "resources": [
+                {
+                  "title": "Feedback Form Prefix Sums and Difference Arrays 14-05-2023 T",
+                  "link": "https://forms.gle/nhVujZdx6HqwyVfA9"
+                },
+                {
+                  "title": "Lecture slides Prefix Sums and Difference Arrays",
+                  "link": "https://drive.google.com/file/d/1ETl8B1UfHFgZK4gfy1a-GxvFYzYnLqJp/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-816B",
+                  "title": "816B",
+                  "link": "https://codeforces.com/problemset/problem/816/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-next-greater-element-ii",
+                  "title": "Next Greater Element Ii",
+                  "link": "https://leetcode.com/problems/next-greater-element-ii/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1681B",
+                  "title": "1681B",
+                  "link": "https://codeforces.com/contest/1681/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-k-diff-pairs-in-an-array",
+                  "title": "K Diff Pairs In An Array",
+                  "link": "https://leetcode.com/problems/k-diff-pairs-in-an-array",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-matrix-block-sum",
+                  "title": "Matrix Block Sum",
+                  "link": "https://leetcode.com/problems/matrix-block-sum",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-276C",
+                  "title": "276C",
+                  "link": "https://codeforces.com/contest/276/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-295A",
+                  "title": "295A",
+                  "link": "https://codeforces.com/contest/295/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-CENS20A",
+                  "title": "CENS20A",
+                  "link": "https://www.codechef.com/CENS2020/problems/CENS20A",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-abc179_d",
+                  "title": "abc179_d",
+                  "link": "https://atcoder.jp/contests/abc179/tasks/abc179_d",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-AGCY",
+                  "title": "AGCY",
+                  "link": "https://www.codechef.com/BYTR20B/problems/AGCY",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-177D2",
+                  "title": "177D2",
+                  "link": "https://codeforces.com/contest/177/problem/D2",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "title": "DP + Recursion (Extra)",
+          "topics": []
+        },
+        {
+          "week": 7,
+          "title": "Advanced Number Theory",
+          "topics": [
+            {
+              "title": "Advanced Number Theory",
+              "resources": [
+                {
+                  "title": "Lecture slides Advanced Number Theory 21-05-2023",
+                  "link": "https://drive.google.com/file/d/1_mFXLuo3ETDUOd84dKmMMey1MfonkhSf/view"
+                },
+                {
+                  "title": "Feedback Form Advanced Number Theory 21-05-2023",
+                  "link": "https://docs.google.com/forms/d/e/1FAIpQLSdhoZCuhFcggQfZLCu0OG0jLDgRlEsN4n5llXvB8b3EjNZRqg/viewform"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-1828B",
+                  "title": "1828B",
+                  "link": "https://codeforces.com/problemset/problem/1828/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-797A",
+                  "title": "797A",
+                  "link": "https://codeforces.com/contest/797/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1360D",
+                  "title": "1360D",
+                  "link": "https://codeforces.com/contest/1360/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1679A",
+                  "title": "1679A",
+                  "link": "https://codeforces.com/problemset/problem/1679/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-230B",
+                  "title": "230B",
+                  "link": "https://codeforces.com/problemset/problem/230/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-GCDQ",
+                  "title": "GCDQ",
+                  "link": "https://www.codechef.com/problems/GCDQ",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1474B",
+                  "title": "1474B",
+                  "link": "https://codeforces.com/problemset/problem/1474/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1656C",
+                  "title": "1656C",
+                  "link": "https://codeforces.com/contest/1656/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-2417",
+                  "title": "Task 2417",
+                  "link": "https://cses.fi/problemset/task/2417",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1458A",
+                  "title": "1458A",
+                  "link": "https://codeforces.com/contest/1458/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "title": "Two Pointers",
+          "topics": [
+            {
+              "title": "Two pointers",
+              "resources": [
+                {
+                  "title": "Lecture slides Two Pointers 28-05-2023 TLE 2`",
+                  "link": "https://drive.google.com/file/d/194-29Hif6PbY6BbDOqO3_-YciI3lnmDd/view"
+                },
+                {
+                  "title": "Feedback Form Two Pointers 28-05-2023 TLE 2`",
+                  "link": "https://forms.gle/JAKfgh3iwm58KkPA7"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-307093C",
+                  "title": "307093C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307092C",
+                  "title": "307092C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1641",
+                  "title": "Task 1641",
+                  "link": "https://cses.fi/problemset/task/1641",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307093D",
+                  "title": "307093D",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-253B",
+                  "title": "253B",
+                  "link": "https://codeforces.com/problemset/problem/253/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-978C",
+                  "title": "978C",
+                  "link": "https://codeforces.com/problemset/problem/978/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-961B",
+                  "title": "961B",
+                  "link": "https://codeforces.com/problemset/problem/961/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-920C",
+                  "title": "920C",
+                  "link": "https://codeforces.com/problemset/problem/920/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1538C",
+                  "title": "1538C",
+                  "link": "https://codeforces.com/problemset/problem/1538/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1535C",
+                  "title": "1535C",
+                  "link": "https://codeforces.com/problemset/problem/1535/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1366B",
+                  "title": "1366B",
+                  "link": "https://codeforces.com/problemset/problem/1366/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 9,
+          "title": "Advanced Binary Search",
+          "topics": []
+        },
+        {
+          "week": 10,
+          "title": "Greedy Algorithms",
+          "topics": []
+        },
+        {
+          "week": 11,
+          "title": "Advanced Bit Manipulation + DP with Bit-Masking",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Level 3",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "String Hashing and Tricks",
+          "topics": [
+            {
+              "title": "String Hashing and Tricks",
+              "resources": [
+                {
+                  "title": "Lecture Slides String Hashing and Tricks",
+                  "link": "https://drive.google.com/file/d/1o6e17teKvKtjmsdzbJNoDXFvjaktydCI/view"
+                },
+                {
+                  "title": "Feedback Form String Hashing and Tricks",
+                  "link": "https://forms.gle/KkL1xHizQa7qyKeb8"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1755",
+                  "title": "Task 1755",
+                  "link": "https://cses.fi/problemset/task/1755",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-group-anagrams",
+                  "title": "Group Anagrams",
+                  "link": "https://leetcode.com/problems/group-anagrams",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1753",
+                  "title": "Task 1753",
+                  "link": "https://cses.fi/problemset/task/1753/",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-longest-substring-without-repeating-characters",
+                  "title": "Longest Substring Without Repeating Characters",
+                  "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1732",
+                  "title": "Task 1732",
+                  "link": "https://cses.fi/problemset/task/1732",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "gfg-https://www.geeksforgeeks.org/count-number-of-distinct-substring-in-a-string/",
+                  "title": "count number of distinct substring in a string",
+                  "link": "https://www.geeksforgeeks.org/count-number-of-distinct-substring-in-a-string/",
+                  "platform": "GeeksforGeeks",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-126B",
+                  "title": "126B",
+                  "link": "https://codeforces.com/problemset/problem/126/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-repeated-dna-sequences",
+                  "title": "Repeated Dna Sequences",
+                  "link": "https://leetcode.com/problems/repeated-dna-sequences",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-385B",
+                  "title": "385B",
+                  "link": "https://codeforces.com/problemset/problem/385/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-271D",
+                  "title": "271D",
+                  "link": "https://codeforces.com/problemset/problem/271/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "Greedy Algorithms",
+          "topics": [
+            {
+              "title": "Greedy algorithms",
+              "resources": [
+                {
+                  "title": "Lecture Slides Greedy Algorithms 17-04-2023 TLE 3",
+                  "link": "https://drive.google.com/file/d/1MVe293n7ojRql71E7ZIniA0Q6eVbrwOW/view"
+                },
+                {
+                  "title": "Feedback Form Greedy Algorithms 17-04-2023 TLE 3",
+                  "link": "https://forms.gle/isLJtN6Z5qgCqmq99"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "lc-maximum-product-subarray",
+                  "title": "Maximum Product Subarray",
+                  "link": "https://leetcode.com/problems/maximum-product-subarray/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1285B",
+                  "title": "1285B",
+                  "link": "https://codeforces.com/problemset/problem/1285/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1291B",
+                  "title": "1291B",
+                  "link": "https://codeforces.com/problemset/problem/1291/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-jump-game-ii",
+                  "title": "Jump Game Ii",
+                  "link": "https://leetcode.com/problems/jump-game-ii/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1294C",
+                  "title": "1294C",
+                  "link": "https://codeforces.com/problemset/problem/1294/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-maximum-score-of-spliced-array",
+                  "title": "Maximum Score Of Spliced Array",
+                  "link": "https://leetcode.com/problems/maximum-score-of-spliced-array/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1815A",
+                  "title": "1815A",
+                  "link": "https://codeforces.com/problemset/problem/1815/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1810C",
+                  "title": "1810C",
+                  "link": "https://codeforces.com/problemset/problem/1810/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1773E",
+                  "title": "1773E",
+                  "link": "https://codeforces.com/problemset/problem/1773/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1765N",
+                  "title": "1765N",
+                  "link": "https://codeforces.com/problemset/problem/1765/N",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1693A",
+                  "title": "1693A",
+                  "link": "https://codeforces.com/problemset/problem/1693/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-91A",
+                  "title": "91A",
+                  "link": "https://codeforces.com/problemset/problem/91/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1660C",
+                  "title": "1660C",
+                  "link": "https://codeforces.com/problemset/problem/1660/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1742F",
+                  "title": "1742F",
+                  "link": "https://codeforces.com/problemset/problem/1742/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1380B",
+                  "title": "1380B",
+                  "link": "https://codeforces.com/problemset/problem/1380/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1338A",
+                  "title": "1338A",
+                  "link": "https://codeforces.com/problemset/problem/1338/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-797C",
+                  "title": "797C",
+                  "link": "https://codeforces.com/problemset/problem/797/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "Problem Solving (greedy)",
+          "topics": [
+            {
+              "title": "Problem solving (greedy)",
+              "resources": [
+                {
+                  "title": "Lecture Slides Greedy Problem Solving 23-04-2023",
+                  "link": "https://drive.google.com/file/d/1cD6VQoV-5Ut-THehqPOy8DSXYTYK7USh/view"
+                },
+                {
+                  "title": "Feedback Form Greedy Problem Solving 23-04-2023",
+                  "link": "https://forms.gle/p2JZwMKL7uAUJkoeA"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-950C",
+                  "title": "950C",
+                  "link": "https://codeforces.com/problemset/problem/950/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-898D",
+                  "title": "898D",
+                  "link": "https://codeforces.com/problemset/problem/898/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-771B",
+                  "title": "771B",
+                  "link": "https://codeforces.com/problemset/problem/771/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-154A",
+                  "title": "154A",
+                  "link": "https://codeforces.com/problemset/problem/154/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-250C",
+                  "title": "250C",
+                  "link": "https://codeforces.com/problemset/problem/250/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-293A",
+                  "title": "293A",
+                  "link": "https://codeforces.com/problemset/problem/293/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-328B",
+                  "title": "328B",
+                  "link": "https://codeforces.com/problemset/problem/328/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-333A",
+                  "title": "333A",
+                  "link": "https://codeforces.com/problemset/problem/333/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-436A",
+                  "title": "436A",
+                  "link": "https://codeforces.com/problemset/problem/436/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-494A",
+                  "title": "494A",
+                  "link": "https://codeforces.com/problemset/problem/494/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Binary Search (advanced) + Ternary Search",
+          "topics": [
+            {
+              "title": "Binary Search (advanced) + Ternary search",
+              "resources": [
+                {
+                  "title": "Lecture slides Binary Search + Ternary Search 30-04-2023",
+                  "link": "https://drive.google.com/file/d/1bRZTV0EfO3vxr0IHf60HQ5u_iHf8xrFX/view"
+                },
+                {
+                  "title": "Feedback Form Binary Search + Ternary Search 30-04-2023",
+                  "link": "https://forms.gle/k1Pyz9hMMNc6LsvJ6"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1620",
+                  "title": "Task 1620",
+                  "link": "https://cses.fi/problemset/task/1620",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "spoj-AGGRCOW",
+                  "title": "AGGRCOW",
+                  "link": "https://www.spoj.com/problems/AGGRCOW/",
+                  "platform": "SPOJ",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1622C",
+                  "title": "1622C",
+                  "link": "https://codeforces.com/problemset/problem/1622/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-847B",
+                  "title": "847B",
+                  "link": "https://codeforces.com/contest/847/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1610C",
+                  "title": "1610C",
+                  "link": "https://codeforces.com/problemset/problem/1610/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-782B",
+                  "title": "782B",
+                  "link": "https://codeforces.com/contest/782/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1619D",
+                  "title": "1619D",
+                  "link": "https://codeforces.com/problemset/problem/1619/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1201C",
+                  "title": "1201C",
+                  "link": "https://codeforces.com/contest/1201/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1117C",
+                  "title": "1117C",
+                  "link": "https://codeforces.com/problemset/problem/1117/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-AMCS03",
+                  "title": "AMCS03",
+                  "link": "https://www.codechef.com/problems/AMCS03",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-2422",
+                  "title": "Task 2422",
+                  "link": "https://cses.fi/problemset/task/2422",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-578C",
+                  "title": "578C",
+                  "link": "https://codeforces.com/problemset/problem/578/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-283932B",
+                  "title": "283932B",
+                  "link": "https://codeforces.com/edu/course/2/lesson/6/2/practice/contest/283932/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "title": "Problem Solving (Binary search + Interactive)",
+          "topics": [
+            {
+              "title": "Problem solving (Binary search + interactive)",
+              "resources": [
+                {
+                  "title": "Lecture slides Binary search + Interactive",
+                  "link": "https://drive.google.com/file/d/15wSZqWAjar2hYfWOda-shIu5Gk8JP23b/view"
+                },
+                {
+                  "title": "Feedback Form Binary Search + Interactive",
+                  "link": "https://forms.gle/wLphTUed1UokwSGQ7"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-1520F1",
+                  "title": "1520F1",
+                  "link": "https://codeforces.com/problemset/problem/1520/F1",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1425F",
+                  "title": "1425F",
+                  "link": "https://codeforces.com/problemset/problem/1425/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-493C",
+                  "title": "493C",
+                  "link": "https://codeforces.com/problemset/problem/493/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1624D",
+                  "title": "1624D",
+                  "link": "https://codeforces.com/problemset/problem/1624/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1486C1",
+                  "title": "1486C1",
+                  "link": "https://codeforces.com/problemset/problem/1486/C1",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1698D",
+                  "title": "1698D",
+                  "link": "https://codeforces.com/problemset/problem/1698/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1487D",
+                  "title": "1487D",
+                  "link": "https://codeforces.com/problemset/problem/1487/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1729E",
+                  "title": "1729E",
+                  "link": "https://codeforces.com/problemset/problem/1729/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "title": "2 Pointers + Sliding Window",
+          "topics": [
+            {
+              "title": "2 Pointers + Sliding Window",
+              "resources": [
+                {
+                  "title": "Lecture slides Two Pointers 21-05-2023",
+                  "link": "https://drive.google.com/file/d/1hogl04t7CGrihq2fRjbHp2v8blWhM_ec/view"
+                },
+                {
+                  "title": "Feedback Form Two Pointers 21-05-2023",
+                  "link": "https://forms.gle/g7r6jfF11XznUCXY9"
+                },
+                {
+                  "title": "Lecture slides Sliding Window  24-05-2023",
+                  "link": "https://drive.google.com/file/d/1JNcMt7jGPPr6T9hp3Zl5NvOso6zM8BvH/view"
+                },
+                {
+                  "title": "Feedback Form Sliding Window 24-05-2023",
+                  "link": "https://forms.gle/txjzMQTasPhKuKid8"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-307092C",
+                  "title": "307092C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/1/practice/contest/307092/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307093D",
+                  "title": "307093D",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307093F",
+                  "title": "307093F",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/2/practice/contest/307093/problem/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307094B",
+                  "title": "307094B",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-702C",
+                  "title": "702C",
+                  "link": "https://codeforces.com/problemset/problem/702/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307094A",
+                  "title": "307094A",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-307094C",
+                  "title": "307094C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-smallest-range-covering-elements-from-k-lists",
+                  "title": "Smallest Range Covering Elements From K Lists",
+                  "link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1251C",
+                  "title": "1251C",
+                  "link": "https://codeforces.com/problemset/problem/1251/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-sliding-window-maximum",
+                  "title": "Sliding Window Maximum",
+                  "link": "https://leetcode.com/problems/sliding-window-maximum/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1644",
+                  "title": "Task 1644",
+                  "link": "https://cses.fi/problemset/task/1644",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1076",
+                  "title": "Task 1076",
+                  "link": "https://cses.fi/problemset/task/1076",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-permutation-in-string",
+                  "title": "Permutation In String",
+                  "link": "https://leetcode.com/problems/permutation-in-string/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1077",
+                  "title": "Task 1077",
+                  "link": "https://cses.fi/problemset/task/1077",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-minimum-number-of-k-consecutive-bit-flips",
+                  "title": "Minimum Number Of K Consecutive Bit Flips",
+                  "link": "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 7,
+          "title": "Number Theory (advanced)",
+          "topics": [
+            {
+              "title": "Number theory (advanced)",
+              "resources": [
+                {
+                  "title": "Lecture slides Number Theory Advanced 1 28-05-2023 TLE",
+                  "link": "https://drive.google.com/file/d/1maEt1gAso05mTQx25L8uf3TdMDFP8dbk/view"
+                },
+                {
+                  "title": "Feedback Form Number Theory Advanced 1 28-05-2023 TLE",
+                  "link": "https://forms.gle/v3qdqSTzCBtZWbor8"
+                },
+                {
+                  "title": "Lecture slides Number Theory Advanced 2 29-05-2023 TLE",
+                  "link": "https://drive.google.com/file/d/1PKkHSFZ-s421Bo0EQ3pFM9uXgIlx-8RX/view"
+                },
+                {
+                  "title": "Feedback Form Number Theory Advanced 2 29-05-2023 TLE",
+                  "link": "https://forms.gle/gtU7bXT5eXoQzkUJA"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-154B",
+                  "title": "154B",
+                  "link": "https://codeforces.com/problemset/problem/154/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-284A",
+                  "title": "284A",
+                  "link": "https://codeforces.com/problemset/problem/284/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-343A",
+                  "title": "343A",
+                  "link": "https://codeforces.com/problemset/problem/343/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-375A",
+                  "title": "375A",
+                  "link": "https://codeforces.com/problemset/problem/375/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-495B",
+                  "title": "495B",
+                  "link": "https://codeforces.com/problemset/problem/495/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-576A",
+                  "title": "576A",
+                  "link": "https://codeforces.com/problemset/problem/576/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-735D",
+                  "title": "735D",
+                  "link": "https://codeforces.com/problemset/problem/735/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1349A",
+                  "title": "1349A",
+                  "link": "https://codeforces.com/problemset/problem/1349/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1458A",
+                  "title": "1458A",
+                  "link": "https://codeforces.com/problemset/problem/1458/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "spoj-VECTAR8",
+                  "title": "VECTAR8",
+                  "link": "https://www.spoj.com/problems/VECTAR8/",
+                  "platform": "SPOJ",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "spoj-HS08PAUL",
+                  "title": "HS08PAUL",
+                  "link": "https://www.spoj.com/problems/HS08PAUL/",
+                  "platform": "SPOJ",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "title": "Combinatorics + problem solving",
+          "topics": []
+        },
+        {
+          "week": 9,
+          "title": "Dynamic Programming Introduction",
+          "topics": []
+        },
+        {
+          "week": 10,
+          "title": "Problem solving (DP)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Level 4",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "DP Beginner",
+          "topics": [
+            {
+              "title": "DP Beginner",
+              "resources": [
+                {
+                  "title": "Lecture Slides 1.1 Dynamic Programming | 10-04-2023",
+                  "link": "https://drive.google.com/file/d/1ulcycud_rHLC4EJf9dHmONSvOuf4V5lD/view"
+                },
+                {
+                  "title": "Feedback Form DP 1.1",
+                  "link": "https://forms.gle/5acufGLWxDRHXhER8"
+                },
+                {
+                  "title": "Lecture Slides 1.2 Dynamic Programming | 13-04-2023",
+                  "link": "https://drive.google.com/file/d/1OHX1miM1yo6RiKF3EtzOdCilCzWc5vzb/view"
+                },
+                {
+                  "title": "Feedback Form DP 1.2",
+                  "link": "https://forms.gle/HscogW5hFFxKu8ka8"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1633",
+                  "title": "Task 1633",
+                  "link": "https://cses.fi/problemset/task/1633",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1634",
+                  "title": "Task 1634",
+                  "link": "https://cses.fi/problemset/task/1634",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1635",
+                  "title": "Task 1635",
+                  "link": "https://cses.fi/problemset/task/1635",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1350B",
+                  "title": "1350B",
+                  "link": "https://codeforces.com/problemset/problem/1350/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1636",
+                  "title": "Task 1636",
+                  "link": "https://cses.fi/problemset/task/1636",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1637",
+                  "title": "Task 1637",
+                  "link": "https://cses.fi/problemset/task/1637",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1638",
+                  "title": "Task 1638",
+                  "link": "https://cses.fi/problemset/task/1638",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-455A",
+                  "title": "455A",
+                  "link": "https://codeforces.com/problemset/problem/455/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-dp_e",
+                  "title": "dp_e",
+                  "link": "https://atcoder.jp/contests/dp/tasks/dp_e",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1158",
+                  "title": "Task 1158",
+                  "link": "https://cses.fi/problemset/task/1158",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1288C",
+                  "title": "1288C",
+                  "link": "https://codeforces.com/problemset/problem/1288/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1745",
+                  "title": "Task 1745",
+                  "link": "https://cses.fi/problemset/task/1745",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-dp_m",
+                  "title": "dp_m",
+                  "link": "https://atcoder.jp/contests/dp/tasks/dp_m",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-166E",
+                  "title": "166E",
+                  "link": "https://codeforces.com/problemset/problem/166/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1140",
+                  "title": "Task 1140",
+                  "link": "https://cses.fi/problemset/task/1140",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1639",
+                  "title": "Task 1639",
+                  "link": "https://cses.fi/problemset/task/1639",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-dp_i",
+                  "title": "dp_i",
+                  "link": "https://atcoder.jp/contests/dp/tasks/dp_i",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "DP Intermediate",
+          "topics": [
+            {
+              "title": "DP Intermediate",
+              "resources": [
+                {
+                  "title": "Lecture Slides DP 2.1 16-04-2023 TLE 4",
+                  "link": "https://drive.google.com/file/d/10FwpkyIXh4Pt7cP3ULds4N4dm9_2zZwr/view"
+                },
+                {
+                  "title": "Feedback Form DP 2.1 16-04-2023 TLE 4",
+                  "link": "https://forms.gle/VrDYw4HW5E37gecFA"
+                },
+                {
+                  "title": "Lecture Slides DP 2.2 18-04-2023 TLE 4",
+                  "link": "https://drive.google.com/file/d/1utKvMRTLNrL00--xdMePKXA2Pdns2Soa/view"
+                },
+                {
+                  "title": "Feedback Form DP 2.2 18-04-2023 TLE 4",
+                  "link": "https://forms.gle/rfPy7kGfzThSoXog8"
+                },
+                {
+                  "title": "Lecture Slides DP 2.3  21-04-2023 TLE 4",
+                  "link": "https://drive.google.com/file/d/1GlZxCYD0Si9MnBSkyQtU-prcyvkuc45N/view"
+                },
+                {
+                  "title": "Feedback Form DP 2.3 21-04-2023 TLE 4",
+                  "link": "https://forms.gle/YaTzzVdAHStNPDbw7"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-1389B",
+                  "title": "1389B",
+                  "link": "https://codeforces.com/problemset/problem/1389/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1249E",
+                  "title": "1249E",
+                  "link": "https://codeforces.com/problemset/problem/1249/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1151B",
+                  "title": "1151B",
+                  "link": "https://codeforces.com/contest/1151/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1498C",
+                  "title": "1498C",
+                  "link": "https://codeforces.com/problemset/problem/1498/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1625C",
+                  "title": "1625C",
+                  "link": "https://codeforces.com/problemset/problem/1625/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1392D",
+                  "title": "1392D",
+                  "link": "https://codeforces.com/problemset/problem/1392/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1077F1",
+                  "title": "1077F1",
+                  "link": "https://codeforces.com/problemset/problem/1077/F1",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-dp_n",
+                  "title": "dp_n",
+                  "link": "https://atcoder.jp/contests/dp/tasks/dp_n",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e",
+                  "title": "00000000009e762e",
+                  "link": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e",
+                  "platform": "Unknown",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1360F",
+                  "title": "1360F",
+                  "link": "https://codeforces.com/problemset/problem/1360/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "DP Advanced",
+          "topics": [
+            {
+              "title": "DP Advanced",
+              "resources": [
+                {
+                  "title": "Lecture Slides DP 3.1  24-04-2023 TLE 4",
+                  "link": "https://drive.google.com/file/d/1N4TGvX_KNPvznHT25tMrl0qchzn0g-pe/view"
+                },
+                {
+                  "title": "Feedback Form DP 3.1 24-04-2023 TLE 4",
+                  "link": "https://forms.gle/8jRK5Pb5fnrtNMLL7"
+                },
+                {
+                  "title": "Lecture slides Bitmask DP 3.2 25-04-2023 TLE 4",
+                  "link": "https://drive.google.com/file/d/18BAaauVwHRb7vprxGkJpDdgmX-2iZhC5/view"
+                },
+                {
+                  "title": "Feedback Form Bitmask DP 3.2 25-04-2023 TLE 4",
+                  "link": "https://forms.gle/2tstenk7AKRnPSfH7"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1140",
+                  "title": "Task 1140",
+                  "link": "https://cses.fi/problemset/task/1140",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "lc-minimum-xor-sum-of-two-arrays",
+                  "title": "Minimum Xor Sum Of Two Arrays",
+                  "link": "https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/",
+                  "platform": "LeetCode",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cc-TSHIRTS",
+                  "title": "TSHIRTS",
+                  "link": "https://www.codechef.com/problems/TSHIRTS",
+                  "platform": "CodeChef",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "atc-dp_o",
+                  "title": "dp_o",
+                  "link": "https://atcoder.jp/contests/dp/tasks/dp_o",
+                  "platform": "AtCoder",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1653",
+                  "title": "Task 1653",
+                  "link": "https://cses.fi/problemset/task/1653",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-895C",
+                  "title": "895C",
+                  "link": "https://codeforces.com/problemset/problem/895/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "spoj-COURIER",
+                  "title": "COURIER",
+                  "link": "https://www.spoj.com/problems/COURIER/",
+                  "platform": "SPOJ",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-580D",
+                  "title": "580D",
+                  "link": "https://codeforces.com/contest/580/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "spoj-ASSIGN",
+                  "title": "ASSIGN",
+                  "link": "https://www.spoj.com/problems/ASSIGN/",
+                  "platform": "SPOJ",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Range Queries Beginner",
+          "topics": [
+            {
+              "title": "Range Queries Beginner",
+              "resources": [
+                {
+                  "title": "Feedback Form Segment Trees 30-04-2023 TLE 4",
+                  "link": "https://forms.gle/qdit2yYdggLEaTKF7"
+                },
+                {
+                  "title": "Feedback Form Range Queries 2 03-05-2023",
+                  "link": "https://forms.gle/J38XnnJqRdeyyQfk9"
+                },
+                {
+                  "title": "Lecture slides  Segment Trees 30-04-2023 TLE 4",
+                  "link": "https://drive.google.com/file/d/1LKwOwkzUHtVqUbz39WbompLbu9LXD3cZ/view"
+                },
+                {
+                  "title": "Lecture slides Range Queries 2 03-05-2023",
+                  "link": "https://drive.google.com/file/d/1Pp812umcLINaxfY70xnhFv2xkfGbrTfW/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-273169A",
+                  "title": "273169A",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-273169B",
+                  "title": "273169B",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-273169C",
+                  "title": "273169C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-273278A",
+                  "title": "273278A",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-273278B",
+                  "title": "273278B",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-273278D",
+                  "title": "273278D",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/2/practice/contest/273278/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-339D",
+                  "title": "339D",
+                  "link": "https://codeforces.com/contest/339/problem/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-380C",
+                  "title": "380C",
+                  "link": "https://codeforces.com/contest/380/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-279653A",
+                  "title": "279653A",
+                  "link": "https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-279653B",
+                  "title": "279653B",
+                  "link": "https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-279653C",
+                  "title": "279653C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/5/2/practice/contest/279653/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-52C",
+                  "title": "52C",
+                  "link": "https://codeforces.com/contest/52/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-274545C",
+                  "title": "274545C",
+                  "link": "https://codeforces.com/edu/course/2/lesson/4/3/practice/contest/274545/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-242E",
+                  "title": "242E",
+                  "link": "https://codeforces.com/contest/242/problem/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-2422",
+                  "title": "Task 2422",
+                  "link": "https://cses.fi/problemset/task/2422",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-578C",
+                  "title": "578C",
+                  "link": "https://codeforces.com/problemset/problem/578/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "title": "Range Queries Intermediate",
+          "topics": [
+            {
+              "title": "Range Queries Intermediate",
+              "resources": [
+                {
+                  "title": "Lecture slides Fenwick Trees+ Sparse Table",
+                  "link": "https://drive.google.com/file/d/1obdwS0Us9VdnoyzrBA9O6_28kcem2TQo/view"
+                },
+                {
+                  "title": "Feedback Form Generic Segment Trees  20-05-2023",
+                  "link": "https://forms.gle/Rc5mB8NfKwjsnjHD8"
+                },
+                {
+                  "title": "Generic Segment Tree with Lazy Propogation",
+                  "link": "https://github.com/Priyansh19077/CP-Templates/blob/master/Range%20Queries/Lazy_SGT.cpp"
+                },
+                {
+                  "title": "Generic Segment Tree",
+                  "link": "https://github.com/Priyansh19077/CP-Templates/blob/master/Range%20Queries/Segment_tree.cpp"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1648",
+                  "title": "Task 1648",
+                  "link": "https://cses.fi/problemset/task/1648",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1709D",
+                  "title": "1709D",
+                  "link": "https://codeforces.com/problemset/problem/1709/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-597C",
+                  "title": "597C",
+                  "link": "https://codeforces.com/contest/597/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-704A",
+                  "title": "704A",
+                  "link": "https://codeforces.com/problemset/problem/704/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-863E",
+                  "title": "863E",
+                  "link": "https://codeforces.com/contest/863/problem/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-276C",
+                  "title": "276C",
+                  "link": "https://codeforces.com/contest/276/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-669E",
+                  "title": "669E",
+                  "link": "https://codeforces.com/contest/669/problem/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-514D",
+                  "title": "514D",
+                  "link": "https://codeforces.com/problemset/problem/514/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-5C",
+                  "title": "5C",
+                  "link": "https://codeforces.com/contest/5/problem/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-482B",
+                  "title": "482B",
+                  "link": "https://codeforces.com/contest/482/problem/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "title": "Trees Beginner",
+          "topics": [
+            {
+              "title": "Trees Beginner",
+              "resources": [
+                {
+                  "title": "Lecture Slides Trees 1 (Introduction)",
+                  "link": "https://drive.google.com/file/d/1qwEjWvfP-talBIJHDtVmHl-AJ73_R3bC/view"
+                },
+                {
+                  "title": "Feedback Form Trees 1 (Introduction)",
+                  "link": "https://forms.gle/vPfhHGBWGnqBzwWV6"
+                },
+                {
+                  "title": "Lecture slides Trees 2 (Binary Lifting & Euler Tour)",
+                  "link": "https://drive.google.com/file/d/172dR1yuinq5JygH1-7dyuFlYPLqgXSvJ/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cf-580C",
+                  "title": "580C",
+                  "link": "https://codeforces.com/problemset/problem/580/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1336A",
+                  "title": "1336A",
+                  "link": "https://codeforces.com/problemset/problem/1336/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1388C",
+                  "title": "1388C",
+                  "link": "https://codeforces.com/problemset/problem/1388/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1131",
+                  "title": "Task 1131",
+                  "link": "https://cses.fi/problemset/task/1131",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1593E",
+                  "title": "1593E",
+                  "link": "https://codeforces.com/problemset/problem/1593/E",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1143C",
+                  "title": "1143C",
+                  "link": "https://codeforces.com/problemset/problem/1143/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-369C",
+                  "title": "369C",
+                  "link": "https://codeforces.com/problemset/problem/369/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-780C",
+                  "title": "780C",
+                  "link": "https://codeforces.com/problemset/problem/780/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-930A",
+                  "title": "930A",
+                  "link": "https://codeforces.com/problemset/problem/930/A",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1037D",
+                  "title": "1037D",
+                  "link": "https://codeforces.com/problemset/problem/1037/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 7,
+          "title": "Trees Advanced",
+          "topics": [
+            {
+              "title": "Trees Advanced",
+              "resources": [
+                {
+                  "title": "Lecture slides Trees 3 (Euler Tour) 28-05-2023 TLE",
+                  "link": "https://drive.google.com/file/d/1S8CtGNKgQCcMDaIBqS10XNC_-BSn_p_O/view"
+                },
+                {
+                  "title": "Feedback Form Trees 3 (Euler Tour) 28-05-2023 TLE",
+                  "link": "https://forms.gle/JAv4ZDkpFJPHXpQH9"
+                },
+                {
+                  "title": "Lecture slides Trees 4 (DP on trees) 01-06-2023",
+                  "link": "https://drive.google.com/file/d/1C8Sz3t5ynSjwGp0qFS5Nh2z_zbqBOeh9/view"
+                }
+              ],
+              "problems": [
+                {
+                  "id": "cses-1687",
+                  "title": "Task 1687",
+                  "link": "https://cses.fi/problemset/task/1687",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1688",
+                  "title": "Task 1688",
+                  "link": "https://cses.fi/problemset/task/1688",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1135",
+                  "title": "Task 1135",
+                  "link": "https://cses.fi/problemset/task/1135",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cses-1136",
+                  "title": "Task 1136",
+                  "link": "https://cses.fi/problemset/task/1136",
+                  "platform": "CSES",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-191C",
+                  "title": "191C",
+                  "link": "https://codeforces.com/problemset/problem/191/C",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1294F",
+                  "title": "1294F",
+                  "link": "https://codeforces.com/contest/1294/problem/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1324F",
+                  "title": "1324F",
+                  "link": "https://codeforces.com/contest/1324/problem/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1092F",
+                  "title": "1092F",
+                  "link": "https://codeforces.com/problemset/problem/1092/F",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-685B",
+                  "title": "685B",
+                  "link": "https://codeforces.com/problemset/problem/685/B",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                },
+                {
+                  "id": "cf-1746D",
+                  "title": "1746D",
+                  "link": "https://codeforces.com/problemset/problem/1746/D",
+                  "platform": "Codeforces",
+                  "difficulty": "Medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "title": "Graphs Beginner",
+          "topics": []
+        },
+        {
+          "week": 9,
+          "title": "Graphs Intermediate",
+          "topics": []
+        },
+        {
+          "week": 10,
+          "title": "Graphs Advanced",
+          "topics": []
+        }
+      ]
+    }
+  ]
+}
